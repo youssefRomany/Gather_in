@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "56L-Ro-dge"; */
+"56L-Ro-dge.normalTitle" = "تأكيد";
+
+/* Class = "UITextField"; placeholder = "Group Name"; ObjectID = "LNl-1c-3AA"; */
+"LNl-1c-3AA.placeholder" = "اسم المجموعة";
+
+/* Class = "UILabel"; text = "Create New Group"; ObjectID = "j24-Nb-UkU"; */
+"j24-Nb-UkU.text" = "انشاء مجموعة جديدة";
+
+/* Class = "UITextField"; placeholder = "Add member to group"; ObjectID = "zva-ot-M8D"; */
+"zva-ot-M8D.placeholder" = "اضافة عضو الي المجموعة";

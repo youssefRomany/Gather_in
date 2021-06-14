@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Department A"; ObjectID = "P1c-CF-ZIF"; */
+"P1c-CF-ZIF.text" = "Department A";
+
+/* Class = "UILabel"; text = "Send the answer to the moderator"; ObjectID = "XaN-5Q-gxR"; */
+"XaN-5Q-gxR.text" = "ارسال الاجابة الي الرئيس";
+
+/* Class = "UILabel"; text = "(Group A 40 Member)"; ObjectID = "YlL-nv-K7X"; */
+"YlL-nv-K7X.text" = "(Group A 40 Member)";
+
+/* Class = "UITextField"; placeholder = "Type your message ..."; ObjectID = "nLe-34-OGm"; */
+"nLe-34-OGm.placeholder" = "اكتب الرسالة";

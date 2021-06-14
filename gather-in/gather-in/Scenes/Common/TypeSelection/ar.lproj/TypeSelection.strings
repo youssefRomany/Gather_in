@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Member"; ObjectID = "AZ3-XU-nfk"; */
+"AZ3-XU-nfk.text" = "عضو";
+
+/* Class = "UILabel"; text = "To create a new account or log in, select the account type"; ObjectID = "B26-5i-ah7"; */
+"B26-5i-ah7.text" = "لانشاء حساب جديد او تسجيل دخول قم باختيار نوع الحساب";
+
+/* Class = "UILabel"; text = "Moderator"; ObjectID = "CzB-ZJ-iO5"; */
+"CzB-ZJ-iO5.text" = "الرئيس";

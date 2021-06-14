@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "8ho-h6-kIv"; */
+"8ho-h6-kIv.normalTitle" = "متابعة";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "CYe-nb-eTH"; */
+"CYe-nb-eTH.placeholder" = "الأسم";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "HI9-uv-VBZ"; */
+"HI9-uv-VBZ.placeholder" = "كلمة المرور";
+
+/* Class = "UILabel"; text = "Create new account"; ObjectID = "LOV-YT-1QO"; */
+"LOV-YT-1QO.text" = "انشاء حساب جديد";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "NYF-AB-xxf"; */
+"NYF-AB-xxf.placeholder" = "البريد الالكتروني";

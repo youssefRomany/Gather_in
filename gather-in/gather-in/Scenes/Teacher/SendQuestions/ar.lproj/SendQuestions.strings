@@ -1,0 +1,36 @@
+
+/* Class = "UITextField"; placeholder = "Option 2"; ObjectID = "1qu-aI-8NT"; */
+"1qu-aI-8NT.placeholder" = "ادخل اختيار ٢";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "65d-eP-Ctv"; */
+"65d-eP-Ctv.normalTitle" = "ارسال";
+
+/* Class = "UITextField"; placeholder = "Option 4"; ObjectID = "K3e-Uv-9Uh"; */
+"K3e-Uv-9Uh.placeholder" = "ادخل اختيار ٤";
+
+/* Class = "UIButton"; normalTitle = "Add other option"; ObjectID = "KHp-r2-Zfi"; */
+"KHp-r2-Zfi.normalTitle" = "اضف اختيار اخر";
+
+/* Class = "UILabel"; text = "Select Question Type"; ObjectID = "KV0-lV-Afl"; */
+"KV0-lV-Afl.text" = "اختيار نوع السؤال";
+
+/* Class = "UITextField"; placeholder = "Option 1"; ObjectID = "KfQ-SG-JNX"; */
+"KfQ-SG-JNX.placeholder" = "ادخل اختيار ١";
+
+/* Class = "UILabel"; text = "Multiple choice"; ObjectID = "M7p-Lr-DXB"; */
+"M7p-Lr-DXB.text" = "سؤال متعدد";
+
+/* Class = "UILabel"; text = "Text question"; ObjectID = "Q06-vA-cT2"; */
+"Q06-vA-cT2.text" = "سؤال نصي";
+
+/* Class = "UILabel"; text = "Maximum 4 choices"; ObjectID = "TQX-Av-vgz"; */
+"TQX-Av-vgz.text" = "كحد اقصي ٤ اختيارات";
+
+/* Class = "UILabel"; text = "Send Questions To Groups"; ObjectID = "d3W-VM-rnC"; */
+"d3W-VM-rnC.text" = "ارسال اسئلة للمجموعات";
+
+/* Class = "UITextField"; placeholder = "Option 3"; ObjectID = "gFn-9v-RnT"; */
+"gFn-9v-RnT.placeholder" = "ادخل اختيار ٣";
+
+/* Class = "UILabel"; text = "Select Groups"; ObjectID = "y2X-ph-hcC"; */
+"y2X-ph-hcC.text" = "تحديد المجموعات";

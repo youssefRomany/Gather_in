@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="99" id="KGk-i7-Jjw" customClass="SelectLeaderCell" customModule="gather_in" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XtX-yq-Cln">
+                        <rect key="frame" x="8" y="8" width="304" height="77"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NZj-QY-CbO">
+                                <rect key="frame" x="8" y="8.5" width="60" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dummyphoto1" translatesAutoresizingMaskIntoConstraints="NO" id="zjI-cz-nq6">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="zjI-cz-nq6" firstAttribute="leading" secondItem="NZj-QY-CbO" secondAttribute="leading" id="B05-Yn-qCI"/>
+                                    <constraint firstAttribute="trailing" secondItem="zjI-cz-nq6" secondAttribute="trailing" id="CMd-hv-kS1"/>
+                                    <constraint firstItem="zjI-cz-nq6" firstAttribute="top" secondItem="NZj-QY-CbO" secondAttribute="top" id="bVb-JI-nDo"/>
+                                    <constraint firstAttribute="width" constant="60" id="iDy-vi-mbw"/>
+                                    <constraint firstAttribute="height" constant="60" id="uE8-xQ-5Lk"/>
+                                    <constraint firstAttribute="bottom" secondItem="zjI-cz-nq6" secondAttribute="bottom" id="wiL-cw-dn4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ahmed Hazem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="use-4R-A2c">
+                                <rect key="frame" x="76" y="29" width="153" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="textColor" name="Color2"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTX-pP-zzT">
+                                <rect key="frame" x="234" y="23.5" width="65" height="30"/>
+                                <color key="backgroundColor" red="0.30196078431372547" green="0.68739169840000003" blue="0.015021159310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="A7O-Ba-kZI"/>
+                                    <constraint firstAttribute="width" constant="65" id="jX5-rN-KiQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Select">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="selectPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xao-Jz-Uga"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="use-4R-A2c" firstAttribute="leading" secondItem="NZj-QY-CbO" secondAttribute="trailing" constant="8" id="Fjb-4V-hUK"/>
+                            <constraint firstItem="pTX-pP-zzT" firstAttribute="centerY" secondItem="XtX-yq-Cln" secondAttribute="centerY" id="H14-1m-QKI"/>
+                            <constraint firstItem="NZj-QY-CbO" firstAttribute="centerY" secondItem="XtX-yq-Cln" secondAttribute="centerY" id="JvH-o4-P6f"/>
+                            <constraint firstItem="pTX-pP-zzT" firstAttribute="leading" secondItem="use-4R-A2c" secondAttribute="trailing" constant="5" id="Mys-bs-4wh"/>
+                            <constraint firstItem="NZj-QY-CbO" firstAttribute="leading" secondItem="XtX-yq-Cln" secondAttribute="leading" constant="8" id="Qrs-OI-RNd"/>
+                            <constraint firstItem="use-4R-A2c" firstAttribute="centerY" secondItem="XtX-yq-Cln" secondAttribute="centerY" id="ROF-hl-Xu5"/>
+                            <constraint firstAttribute="trailing" secondItem="pTX-pP-zzT" secondAttribute="trailing" constant="5" id="iN6-l3-1ox"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XtX-yq-Cln" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Aj5-uZ-egh"/>
+                    <constraint firstAttribute="bottom" secondItem="XtX-yq-Cln" secondAttribute="bottom" constant="8" id="THW-Wj-jfI"/>
+                    <constraint firstItem="XtX-yq-Cln" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="c9m-Ck-3Z0"/>
+                    <constraint firstAttribute="trailing" secondItem="XtX-yq-Cln" secondAttribute="trailing" constant="8" id="vqI-Fe-JiB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="memberImage" destination="zjI-cz-nq6" id="Wgv-4a-8cD"/>
+                <outlet property="memberImageView" destination="NZj-QY-CbO" id="Trn-dD-bub"/>
+                <outlet property="memberNameLabel" destination="use-4R-A2c" id="7R8-jA-rF3"/>
+                <outlet property="selectButton" destination="pTX-pP-zzT" id="zFT-A7-FSB"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="102.79017857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dummyphoto1" width="256" height="256"/>
+        <namedColor name="Color2">
+            <color red="0.28999999165534973" green="0.28999999165534973" blue="0.28999999165534973" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

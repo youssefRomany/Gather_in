@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SelectGroupCell" rowHeight="75" id="KGk-i7-Jjw" customClass="SelectGroupCell" customModule="gather_in" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bjC-LU-DW9">
+                        <rect key="frame" x="5" y="8" width="310" height="59"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="grO-pd-bMs">
+                                <rect key="frame" x="8" y="19.5" width="20" height="20"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green-rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="STc-8b-GxA">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ms1-uU-fHZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <state key="normal" image="check-mark-icon"/>
+                                        <connections>
+                                            <action selector="selectPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ed6-8N-fBb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="1yA-Hg-vDf"/>
+                                    <constraint firstAttribute="trailing" secondItem="ms1-uU-fHZ" secondAttribute="trailing" id="Byo-hW-6W7"/>
+                                    <constraint firstItem="ms1-uU-fHZ" firstAttribute="leading" secondItem="grO-pd-bMs" secondAttribute="leading" id="DQj-UQ-HV4"/>
+                                    <constraint firstItem="STc-8b-GxA" firstAttribute="top" secondItem="grO-pd-bMs" secondAttribute="top" id="Jxs-3I-CjY"/>
+                                    <constraint firstAttribute="bottom" secondItem="STc-8b-GxA" secondAttribute="bottom" id="TD2-OU-VZs"/>
+                                    <constraint firstItem="STc-8b-GxA" firstAttribute="leading" secondItem="grO-pd-bMs" secondAttribute="leading" id="Zt0-ZL-Nin"/>
+                                    <constraint firstAttribute="trailing" secondItem="STc-8b-GxA" secondAttribute="trailing" id="hWY-4f-AG2"/>
+                                    <constraint firstAttribute="height" constant="20" id="pwQ-ni-YWQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="ms1-uU-fHZ" secondAttribute="bottom" id="wSo-Qk-axf"/>
+                                    <constraint firstItem="ms1-uU-fHZ" firstAttribute="top" secondItem="grO-pd-bMs" secondAttribute="top" id="wwL-qt-LKS"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOn-nf-yQ9">
+                                <rect key="frame" x="36" y="20" width="266" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" name="Color5"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LOn-nf-yQ9" firstAttribute="centerY" secondItem="grO-pd-bMs" secondAttribute="centerY" id="TfV-gU-uDO"/>
+                            <constraint firstItem="grO-pd-bMs" firstAttribute="centerY" secondItem="bjC-LU-DW9" secondAttribute="centerY" id="aNu-0n-bV1"/>
+                            <constraint firstAttribute="trailing" secondItem="LOn-nf-yQ9" secondAttribute="trailing" constant="8" id="mAQ-AD-7Or"/>
+                            <constraint firstItem="LOn-nf-yQ9" firstAttribute="leading" secondItem="grO-pd-bMs" secondAttribute="trailing" constant="8" id="rap-1Q-hcf"/>
+                            <constraint firstItem="grO-pd-bMs" firstAttribute="leading" secondItem="bjC-LU-DW9" secondAttribute="leading" constant="8" id="w1m-RX-8vQ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="BackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="bjC-LU-DW9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="GQk-8b-MeV"/>
+                    <constraint firstAttribute="bottom" secondItem="bjC-LU-DW9" secondAttribute="bottom" constant="8" id="SCS-t1-me9"/>
+                    <constraint firstAttribute="trailing" secondItem="bjC-LU-DW9" secondAttribute="trailing" constant="5" id="aI2-kP-HLH"/>
+                    <constraint firstItem="bjC-LU-DW9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="eAp-sy-dff"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="groupNameLabel" destination="LOn-nf-yQ9" id="IF9-CI-lXl"/>
+                <outlet property="selectButton" destination="ms1-uU-fHZ" id="2I4-Q0-vS8"/>
+            </connections>
+            <point key="canvasLocation" x="105.79710144927537" y="96.763392857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="check-mark-icon" width="10" height="9"/>
+        <image name="green-rectangle" width="25" height="25"/>
+        <namedColor name="BackgroundColor">
+            <color red="0.97600001096725464" green="0.97600001096725464" blue="0.97600001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color5">
+            <color red="0.53299999237060547" green="0.28200000524520874" blue="0.83899998664855957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

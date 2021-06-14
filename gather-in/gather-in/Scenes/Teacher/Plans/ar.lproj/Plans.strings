@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "List of Subscriptions"; ObjectID = "GuY-TO-0QQ"; */
+"GuY-TO-0QQ.text" = "قائمة الاشتراكات";
+
+/* Class = "UILabel"; text = "Create 7 groups"; ObjectID = "WAI-NG-nSX"; */
+"WAI-NG-nSX.text" = "Create 7 groups";
+
+/* Class = "UILabel"; text = "80 $"; ObjectID = "X6f-lW-Nmm"; */
+"X6f-lW-Nmm.text" = "80 $";
+
+/* Class = "UILabel"; text = "Silver Subscription"; ObjectID = "aS0-A4-UaR"; */
+"aS0-A4-UaR.text" = "Silver Subscription";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "kKj-jP-SOz"; */
+"kKj-jP-SOz.normalTitle" = "تأكيد";
+
+/* Class = "UILabel"; text = "Create up to 6 departments"; ObjectID = "owe-yL-D5Z"; */
+"owe-yL-D5Z.text" = "Create up to 6 departments";

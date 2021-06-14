@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Department A"; ObjectID = "F0t-ac-JjN"; */
+"F0t-ac-JjN.text" = "Department A";
+
+/* Class = "UILabel"; text = "Members List"; ObjectID = "UYF-5j-07N"; */
+"UYF-5j-07N.text" = "قائمة الاعضاء";
+
+/* Class = "UILabel"; text = "Communication"; ObjectID = "Vph-ZF-HqY"; */
+"Vph-ZF-HqY.text" = "التواصل";
+
+/* Class = "UILabel"; text = "Moderator"; ObjectID = "jvc-qT-ePn"; */
+"jvc-qT-ePn.text" = "الرئيس";
+
+/* Class = "UILabel"; text = "Nader Rabah"; ObjectID = "niJ-Fm-LCi"; */
+"niJ-Fm-LCi.text" = "Nader Rabah";
+
+/* Class = "UILabel"; text = "(Group A 40 Member)"; ObjectID = "ofP-77-byu"; */
+"ofP-77-byu.text" = "(Group A 40 Member)";

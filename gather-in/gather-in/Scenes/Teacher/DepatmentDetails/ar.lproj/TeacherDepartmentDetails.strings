@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Copy"; ObjectID = "Bc5-IR-FKA"; */
+"Bc5-IR-FKA.normalTitle" = "نسخ";
+
+/* Class = "UILabel"; text = "Department Code"; ObjectID = "b3Q-wM-Ulz"; */
+"b3Q-wM-Ulz.text" = "رمز القسم";
+
+/* Class = "UILabel"; text = "List of groups"; ObjectID = "eFI-I3-DNw"; */
+"eFI-I3-DNw.text" = "قائمة المجموعات";

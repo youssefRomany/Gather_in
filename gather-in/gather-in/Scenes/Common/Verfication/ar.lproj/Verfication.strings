@@ -1,0 +1,15 @@
+
+/* Class = "UITextField"; placeholder = "Verfication code"; ObjectID = "3bz-98-TCi"; */
+"3bz-98-TCi.placeholder" = "كود التحقق";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "8Xf-zc-59W"; */
+"8Xf-zc-59W.normalTitle" = "متابعة";
+
+/* Class = "UILabel"; text = "02:45"; ObjectID = "9RN-Q6-f91"; */
+"9RN-Q6-f91.text" = "٠٢:٤٥";
+
+/* Class = "UILabel"; text = "The time taken to send the code"; ObjectID = "GOr-Jc-a25"; */
+"GOr-Jc-a25.text" = "الوقت المستغرق لأرسال الرمز";
+
+/* Class = "UILabel"; text = "Enter your verification code that was sent to the email"; ObjectID = "NzR-IC-wCl"; */
+"NzR-IC-wCl.text" = "أدخل رمز التحقق الخاص بك الذي تم إرساله إلي البريد الالكتروني";

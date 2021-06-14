@@ -1,0 +1,9 @@
+
+/* Class = "UITextField"; placeholder = "Type your message ..."; ObjectID = "4zg-em-zws"; */
+"4zg-em-zws.placeholder" = "اكتب الرسالة";
+
+/* Class = "UILabel"; text = "Results"; ObjectID = "gfs-2G-j6C"; */
+"gfs-2G-j6C.text" = "نتائج";
+
+/* Class = "UILabel"; text = "(Department A , Group A)"; ObjectID = "kZo-Do-fCU"; */
+"kZo-Do-fCU.text" = "(Department A , Group A)";

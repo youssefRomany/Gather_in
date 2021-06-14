@@ -1,0 +1,2537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C02793925D2CF94000EB689 /* CreateDepartmentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C02793825D2CF94000EB689 /* CreateDepartmentRequest.swift */; };
+		2C02793D25D2D258000EB689 /* CreateDepartmentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C02793C25D2D258000EB689 /* CreateDepartmentResponse.swift */; };
+		2C02794125D2E207000EB689 /* EditDepartmentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C02794025D2E207000EB689 /* EditDepartmentRequest.swift */; };
+		2C02D52525B1C6EC0031F742 /* GetPlansResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C02D52425B1C6EC0031F742 /* GetPlansResponse.swift */; };
+		2C02D52A25B1C7F90031F742 /* PlansRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C02D52925B1C7F90031F742 /* PlansRequest.swift */; };
+		2C0B794C25810F31004950C1 /* StudentGroupDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B794B25810F31004950C1 /* StudentGroupDetailsVC.swift */; };
+		2C0B7952258115D4004950C1 /* GroupMemberTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B7950258115D4004950C1 /* GroupMemberTableCell.swift */; };
+		2C0EAD0125B09CA20061C16C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EAD0025B09CA20061C16C /* String.swift */; };
+		2C0EAD0B25B0AEB00061C16C /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EAD0A25B0AEB00061C16C /* RegisterResponse.swift */; };
+		2C1841FA25A79EEE00FC3437 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1841F925A79EEE00FC3437 /* MainTabBarVC.swift */; };
+		2C1841FE25A79F0300FC3437 /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1841FD25A79F0300FC3437 /* MainTabBar.storyboard */; };
+		2C18420925A7B62800FC3437 /* GroupDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C18420825A7B62800FC3437 /* GroupDetailsVC.swift */; };
+		2C18421425A7BC1900FC3437 /* TeacherChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C18421325A7BC1900FC3437 /* TeacherChatVC.swift */; };
+		2C18421725A7BCC600FC3437 /* TeacherChatVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C18421625A7BCC600FC3437 /* TeacherChatVC+TableView.swift */; };
+		2C18421A25A7BD6A00FC3437 /* TeacherChatVC+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C18421925A7BD6A00FC3437 /* TeacherChatVC+CollectionView.swift */; };
+		2C2A950C25A74F0F00F5E613 /* TeacherDepartmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A950A25A74F0F00F5E613 /* TeacherDepartmentCell.swift */; };
+		2C2A950D25A74F0F00F5E613 /* TeacherDepartmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A950B25A74F0F00F5E613 /* TeacherDepartmentCell.xib */; };
+		2C2A951525A7544B00F5E613 /* PlansCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A951325A7544B00F5E613 /* PlansCell.swift */; };
+		2C2A951625A7544B00F5E613 /* PlansCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A951425A7544B00F5E613 /* PlansCell.xib */; };
+		2C37573D25D572B10078E41F /* TeacherGroupsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37573C25D572B10078E41F /* TeacherGroupsResponse.swift */; };
+		2C37574125D573280078E41F /* SendQuestionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37574025D573280078E41F /* SendQuestionRequest.swift */; };
+		2C408A8F25CDF55B007C2BFE /* StudentHomeRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C408A8E25CDF55B007C2BFE /* StudentHomeRequests.swift */; };
+		2C408A9325CDF699007C2BFE /* StudentDepartmentsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C408A9225CDF699007C2BFE /* StudentDepartmentsResponse.swift */; };
+		2C40E91C25DAC5B500A7A5A3 /* LeaderChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40E91B25DAC5B500A7A5A3 /* LeaderChatsVC.swift */; };
+		2C40E92025DAC7DF00A7A5A3 /* LeaderChatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40E91E25DAC7DF00A7A5A3 /* LeaderChatsCell.swift */; };
+		2C40E92125DAC7DF00A7A5A3 /* LeaderChatsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C40E91F25DAC7DF00A7A5A3 /* LeaderChatsCell.xib */; };
+		2C40E92425DAC7F400A7A5A3 /* LeaderChatsVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40E92325DAC7F400A7A5A3 /* LeaderChatsVC+TableView.swift */; };
+		2C449E6725B0748A00517059 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C449E6625B0748A00517059 /* URLRequestBuilder.swift */; };
+		2C449E6B25B0760E00517059 /* APIRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C449E6A25B0760E00517059 /* APIRequestHandler.swift */; };
+		2C449E6E25B0762900517059 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C449E6D25B0762900517059 /* ResponseHandler.swift */; };
+		2C449E7125B0776400517059 /* CodableInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C449E7025B0776400517059 /* CodableInit.swift */; };
+		2C449E8925B0958800517059 /* UserTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C449E8825B0958800517059 /* UserTypes.swift */; };
+		2C4CCC8D2583C2B40073C20D /* SendAnswerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4CCC8C2583C2B40073C20D /* SendAnswerVC.swift */; };
+		2C4E4A0725CEE12B0084EE98 /* DepartmentGroups.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E4A0625CEE12B0084EE98 /* DepartmentGroups.storyboard */; };
+		2C4E4A0A25CEE1680084EE98 /* DepartmentGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E4A0925CEE1680084EE98 /* DepartmentGroupsVC.swift */; };
+		2C4E4A0F25CEE1A00084EE98 /* DepartmentGroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E4A0D25CEE1A00084EE98 /* DepartmentGroupsCell.swift */; };
+		2C4E4A1025CEE1A00084EE98 /* DepartmentGroupsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E4A0E25CEE1A00084EE98 /* DepartmentGroupsCell.xib */; };
+		2C4E4A1425CEE7090084EE98 /* DepartmentGroupsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E4A1325CEE7090084EE98 /* DepartmentGroupsResponse.swift */; };
+		2C4E4A1925CEE7E30084EE98 /* DepartmentGroupsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E4A1825CEE7E30084EE98 /* DepartmentGroupsRequest.swift */; };
+		2C520F152582BB8D004EAEED /* StudentsChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C520F142582BB8D004EAEED /* StudentsChatVC.swift */; };
+		2C520F622582C071004EAEED /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C520F602582C071004EAEED /* ChatCell.swift */; };
+		2C520F632582C071004EAEED /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C520F612582C071004EAEED /* ChatCell.xib */; };
+		2C5779E72584170D00501542 /* StudentNotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5779E62584170D00501542 /* StudentNotificationsVC.swift */; };
+		2C5779ED2584182E00501542 /* BasicNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5779EB2584182E00501542 /* BasicNotificationCell.swift */; };
+		2C5779EE2584182E00501542 /* BasicNotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C5779EC2584182E00501542 /* BasicNotificationCell.xib */; };
+		2C6302D825D85DA80077402E /* TeacherChangePasswordRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6302D725D85DA80077402E /* TeacherChangePasswordRequest.swift */; };
+		2C6302ED25D889130077402E /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6302EC25D889130077402E /* ForgotPasswordVC.swift */; };
+		2C72E3C3257E711D004F8436 /* TypeSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72E3C2257E711D004F8436 /* TypeSelectionVC.swift */; };
+		2C7864B825A8C5CB00BF6CC6 /* EditGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7864B725A8C5CB00BF6CC6 /* EditGroupVC.swift */; };
+		2C7864C425A8CAD500BF6CC6 /* SelectLeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7864C325A8CAD500BF6CC6 /* SelectLeaderVC.swift */; };
+		2C7864C825A8CB2000BF6CC6 /* SelectLeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7864C625A8CB2000BF6CC6 /* SelectLeaderCell.swift */; };
+		2C7864C925A8CB2000BF6CC6 /* SelectLeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7864C725A8CB2000BF6CC6 /* SelectLeaderCell.xib */; };
+		2C7C69C325A8EDFB002EB4DF /* GroupResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C69C225A8EDFB002EB4DF /* GroupResultsVC.swift */; };
+		2C7C69C725A8EF70002EB4DF /* GroupResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C69C525A8EF70002EB4DF /* GroupResultsCell.swift */; };
+		2C7C69C825A8EF70002EB4DF /* GroupResultsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7C69C625A8EF70002EB4DF /* GroupResultsCell.xib */; };
+		2C7C69CB25A8F13F002EB4DF /* GroupResultsVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C69CA25A8F13F002EB4DF /* GroupResultsVC+TableView.swift */; };
+		2C7C69D425A902D5002EB4DF /* ResultDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C69D225A902D5002EB4DF /* ResultDetailsCell.swift */; };
+		2C7C69D825A90635002EB4DF /* ResultDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C69D725A90635002EB4DF /* ResultDetailsVC.swift */; };
+		2C7C69DC25A9082A002EB4DF /* ResultDetailsVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C69DB25A9082A002EB4DF /* ResultDetailsVC+TableView.swift */; };
+		2C7DC60525D6B7A40008CE52 /* SelectMemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DC60325D6B7A40008CE52 /* SelectMemberCell.swift */; };
+		2C7DC60625D6B7A40008CE52 /* SelectMemberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7DC60425D6B7A40008CE52 /* SelectMemberCell.xib */; };
+		2C7DC60E25D6BFF30008CE52 /* GetDepartmentMembersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DC60D25D6BFF30008CE52 /* GetDepartmentMembersResponse.swift */; };
+		2C7DC61225D6C0400008CE52 /* CreateGroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DC61125D6C0400008CE52 /* CreateGroupRequest.swift */; };
+		2C7DC61725D6CDA20008CE52 /* EditGroupVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DC61625D6CDA20008CE52 /* EditGroupVC+TableView.swift */; };
+		2C7DC61B25D6D0070008CE52 /* EditGroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DC61A25D6D0070008CE52 /* EditGroupRequest.swift */; };
+		2C7DC62125D6D2240008CE52 /* GroupMembersResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DC62025D6D2240008CE52 /* GroupMembersResponseModel.swift */; };
+		2C7DC62725D6D92F0008CE52 /* NotificationsAndReportsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DC62625D6D92F0008CE52 /* NotificationsAndReportsRequest.swift */; };
+		2C7DC62C25D6E8BC0008CE52 /* NotificatioinsAndReportMessageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DC62B25D6E8BC0008CE52 /* NotificatioinsAndReportMessageRequest.swift */; };
+		2C875D1A25A892E40007C492 /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C875D1925A892E40007C492 /* CreateGroupVC.swift */; };
+		2C8AA60625DEA82B00833297 /* TeacherChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA60825DEA82B00833297 /* TeacherChat.storyboard */; };
+		2C8AA60C25DEA85700833297 /* CreateGroup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA60E25DEA85700833297 /* CreateGroup.storyboard */; };
+		2C8AA61325DEA8A900833297 /* EditGroup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA61525DEA8A900833297 /* EditGroup.storyboard */; };
+		2C8AA61A25DEA8FD00833297 /* SelectLeader.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA61C25DEA8FD00833297 /* SelectLeader.storyboard */; };
+		2C8AA62225DEAA3200833297 /* GroupResults.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA62425DEAA3200833297 /* GroupResults.storyboard */; };
+		2C8AA62925DEAA8F00833297 /* ResultDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA62B25DEAA8F00833297 /* ResultDetails.storyboard */; };
+		2C8AA63025DEAB0D00833297 /* ResultDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA63225DEAB0D00833297 /* ResultDetailsCell.xib */; };
+		2C8AA63725DEAB3100833297 /* SendQuestions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA63925DEAB3100833297 /* SendQuestions.storyboard */; };
+		2C8AA63D25DEAC7100833297 /* NotificationsAndReports.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA63F25DEAC7100833297 /* NotificationsAndReports.storyboard */; };
+		2C8AA64425DEAC9D00833297 /* NotificationAndReportMessage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA64625DEAC9D00833297 /* NotificationAndReportMessage.storyboard */; };
+		2C8AA64A25DEAD0100833297 /* Communication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA64C25DEAD0100833297 /* Communication.storyboard */; };
+		2C8AA65125DEAD4900833297 /* CommunicationDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA65325DEAD4900833297 /* CommunicationDetails.storyboard */; };
+		2C8AA65925DEAD7800833297 /* TeacherNotifications.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA65B25DEAD7800833297 /* TeacherNotifications.storyboard */; };
+		2C8AA66025DEADA700833297 /* TeacherProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA66225DEADA700833297 /* TeacherProfile.storyboard */; };
+		2C8AA66725DEADD200833297 /* TeacherSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA66925DEADD200833297 /* TeacherSettings.storyboard */; };
+		2C8AA66D25DEAE4600833297 /* TeacherEditProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA66F25DEAE4600833297 /* TeacherEditProfile.storyboard */; };
+		2C8AA67425DEAE7200833297 /* TeacherChangePassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA67625DEAE7200833297 /* TeacherChangePassword.storyboard */; };
+		2C8AA67B25DEAF4F00833297 /* StudentHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA67D25DEAF4F00833297 /* StudentHome.storyboard */; };
+		2C8AA68225DEBA3B00833297 /* StudentDepartmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA68425DEBA3B00833297 /* StudentDepartmentCell.xib */; };
+		2C8AA68825DEBAC300833297 /* JoinDepartmentAlert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA68A25DEBAC300833297 /* JoinDepartmentAlert.storyboard */; };
+		2C8AA68E25DEBE9100833297 /* StudentGroupDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA69025DEBE9100833297 /* StudentGroupDetails.storyboard */; };
+		2C8AA69425DEBF9800833297 /* StudentsChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA69625DEBF9800833297 /* StudentsChat.storyboard */; };
+		2C8AA69B25DEC00500833297 /* SendAnswer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA69D25DEC00500833297 /* SendAnswer.storyboard */; };
+		2C8AA6A125DEC07F00833297 /* StudentNotifications.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA6A325DEC07F00833297 /* StudentNotifications.storyboard */; };
+		2C8AA6A825DEC0A300833297 /* StudentSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA6AA25DEC0A300833297 /* StudentSettings.storyboard */; };
+		2C8AA6AF25DEC2B300833297 /* LeaderChats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA6B125DEC2B300833297 /* LeaderChats.storyboard */; };
+		2C8AA6B525DEC2E100833297 /* StudentProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA6B725DEC2E100833297 /* StudentProfile.storyboard */; };
+		2C8AA6BE25DED2EB00833297 /* ChangePassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA6BD25DED2EB00833297 /* ChangePassword.storyboard */; };
+		2C8AA6C125DED40000833297 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AA6C025DED40000833297 /* ChangePasswordVC.swift */; };
+		2C8AA6CA25DEE69F00833297 /* StudentChangePassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AA6C925DEE69F00833297 /* StudentChangePassword.storyboard */; };
+		2C8AA6CD25DEE70A00833297 /* StudentChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AA6CC25DEE70A00833297 /* StudentChangePasswordVC.swift */; };
+		2C8AA6D125DEE77300833297 /* StudentChangePasswordRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AA6D025DEE77300833297 /* StudentChangePasswordRequest.swift */; };
+		2C8C673C25D40F6F00635C06 /* SelectLeaderRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C673B25D40F6F00635C06 /* SelectLeaderRequests.swift */; };
+		2C8C674025D40FA200635C06 /* GetGroupMembersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C673F25D40FA200635C06 /* GetGroupMembersResponse.swift */; };
+		2C8C674725D42FDC00635C06 /* GroupResultsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C674625D42FDC00635C06 /* GroupResultsResponse.swift */; };
+		2C8C674B25D4300D00635C06 /* GroupResultsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C674A25D4300D00635C06 /* GroupResultsRequest.swift */; };
+		2C9726852582B6CD00C16333 /* MemberCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9726832582B6CD00C16333 /* MemberCollectionCell.swift */; };
+		2C9726862582B6CD00C16333 /* MemberCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C9726842582B6CD00C16333 /* MemberCollectionCell.xib */; };
+		2C9C1D7F258662DD00924EF4 /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C1D7E258662DD00924EF4 /* AboutUsVC.swift */; };
+		2CA17BFA25DDA2B900A9AB3C /* TypeSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17BFC25DDA2B900A9AB3C /* TypeSelection.storyboard */; };
+		2CA17C0025DDA3DC00A9AB3C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C0225DDA3DC00A9AB3C /* Login.storyboard */; };
+		2CA17C0625DDA4FE00A9AB3C /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C0825DDA4FE00A9AB3C /* Registration.storyboard */; };
+		2CA17C0D25DDA5F700A9AB3C /* AlreadyRegisteredAlert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C0F25DDA5F700A9AB3C /* AlreadyRegisteredAlert.storyboard */; };
+		2CA17C1325DDA73D00A9AB3C /* Verfication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C1525DDA73D00A9AB3C /* Verfication.storyboard */; };
+		2CA17C1A25DDA86600A9AB3C /* AboutUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C1C25DDA86600A9AB3C /* AboutUs.storyboard */; };
+		2CA17C2125DDA88A00A9AB3C /* SentSuccessfully.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C2325DDA88A00A9AB3C /* SentSuccessfully.storyboard */; };
+		2CA17C2725DDA8AE00A9AB3C /* ForgotPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C2925DDA8AE00A9AB3C /* ForgotPassword.storyboard */; };
+		2CA17C2E25DDA91900A9AB3C /* GroupMemberTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C3025DDA91900A9AB3C /* GroupMemberTableCell.xib */; };
+		2CA17C3525DDA95600A9AB3C /* TeacherHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C3725DDA95600A9AB3C /* TeacherHome.storyboard */; };
+		2CA17C3C25DDAC4600A9AB3C /* Plans.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C3E25DDAC4600A9AB3C /* Plans.storyboard */; };
+		2CA17C4325DDADCB00A9AB3C /* TeacherDepartmentDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C4525DDADCB00A9AB3C /* TeacherDepartmentDetails.storyboard */; };
+		2CA17C4A25DDAE7700A9AB3C /* CreateDepartment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C4C25DDAE7700A9AB3C /* CreateDepartment.storyboard */; };
+		2CA17C5125DDAFA600A9AB3C /* EditDepartment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C5325DDAFA600A9AB3C /* EditDepartment.storyboard */; };
+		2CA17C5725DDAFFF00A9AB3C /* GroupDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA17C5925DDAFFF00A9AB3C /* GroupDetails.storyboard */; };
+		2CA9B1D525D5D2B100AD2139 /* TeacherNotificationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA9B1D425D5D2B100AD2139 /* TeacherNotificationsResponse.swift */; };
+		2CA9B1DA25D5D30400AD2139 /* TeacherNotficationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA9B1D925D5D30400AD2139 /* TeacherNotficationRequest.swift */; };
+		2CAFCD53257FB67C00586FAF /* AlreadyRegisteredAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFCD52257FB67C00586FAF /* AlreadyRegisteredAlertVC.swift */; };
+		2CAFCD5C257FB93500586FAF /* VerficationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFCD5B257FB93500586FAF /* VerficationVC.swift */; };
+		2CCA7FAE25801B3000A6866D /* StudentDepartmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA7FAC25801B3000A6866D /* StudentDepartmentCell.swift */; };
+		2CCA7FB42580328B00A6866D /* StudentHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA7FB32580328B00A6866D /* StudentHomeVC.swift */; };
+		2CCA7FBD258039AE00A6866D /* JoinDepartmentAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA7FBC258039AE00A6866D /* JoinDepartmentAlertVC.swift */; };
+		2CCD5A662584FB2300B51949 /* StudentProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5A652584FB2300B51949 /* StudentProfileVC.swift */; };
+		2CCD5A6D2584FB7A00B51949 /* StudentSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5A6C2584FB7A00B51949 /* StudentSettingsVC.swift */; };
+		2CCD5A722585002600B51949 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5A702585002600B51949 /* SettingsCell.swift */; };
+		2CCD5A732585002600B51949 /* SettingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CCD5A712585002600B51949 /* SettingsCell.xib */; };
+		2CCD5A76258500E200B51949 /* StudentSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CCD5A75258500E200B51949 /* StudentSettings.json */; };
+		2CCD5A852585025800B51949 /* StudentSettingsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD5A842585025800B51949 /* StudentSettingsResponseModel.swift */; };
+		2CD3F2D62583CB2200E413B9 /* SentSuccessfullyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3F2D52583CB2200E413B9 /* SentSuccessfullyVC.swift */; };
+		2CD634B725AB9CF200E4C75F /* TeacherNotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD634B625AB9CF200E4C75F /* TeacherNotificationsVC.swift */; };
+		2CD634BA25AB9D1D00E4C75F /* TeacherNotificationsVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD634B925AB9D1D00E4C75F /* TeacherNotificationsVC+TableView.swift */; };
+		2CD634CE25ABA47B00E4C75F /* TeacherProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD634CD25ABA47B00E4C75F /* TeacherProfileVC.swift */; };
+		2CD634D625ABAD2E00E4C75F /* TeacherSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD634D525ABAD2E00E4C75F /* TeacherSettingsVC.swift */; };
+		2CD634D925ABAD4600E4C75F /* TeacherSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CD634D825ABAD4600E4C75F /* TeacherSettings.json */; };
+		2CD634DC25ABAD5E00E4C75F /* TeacherSettingsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD634DB25ABAD5E00E4C75F /* TeacherSettingsResponseModel.swift */; };
+		2CD634E025ABADBD00E4C75F /* TeacherSettingsVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD634DF25ABADBD00E4C75F /* TeacherSettingsVC+TableView.swift */; };
+		2CD634E725ABB0A800E4C75F /* TeacherEditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD634E625ABB0A800E4C75F /* TeacherEditProfileVC.swift */; };
+		2CD634EE25ABB36600E4C75F /* TeacherChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD634ED25ABB36600E4C75F /* TeacherChangePasswordVC.swift */; };
+		2CDE3391257E785500020462 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE3390257E785500020462 /* LoginVC.swift */; };
+		2CDE3394257E806600020462 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE3393257E806600020462 /* UIColor.swift */; };
+		2CDE339C257E83CE00020462 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE339B257E83CE00020462 /* RegistrationVC.swift */; };
+		2CE102E025CF3C9100AEF788 /* StudentGroupDetailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE102DF25CF3C9100AEF788 /* StudentGroupDetailsRequest.swift */; };
+		2CE102E325CF3CAE00AEF788 /* GroupDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE102E225CF3CAE00AEF788 /* GroupDetailsResponse.swift */; };
+		2CE33F0F257A8440007DCE36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F0E257A8440007DCE36 /* AppDelegate.swift */; };
+		2CE33F18257A8442007DCE36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE33F17257A8442007DCE36 /* Assets.xcassets */; };
+		2CE33F1B257A8442007DCE36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE33F19257A8442007DCE36 /* LaunchScreen.storyboard */; };
+		2CE33F5F257A85F6007DCE36 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F5E257A85F6007DCE36 /* UIView.swift */; };
+		2CE33F62257A8658007DCE36 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F61257A8658007DCE36 /* UITableView.swift */; };
+		2CE33F65257A866C007DCE36 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F64257A866C007DCE36 /* UICollectionView.swift */; };
+		2CE33F6B257A86D6007DCE36 /* LocalizationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F6A257A86D6007DCE36 /* LocalizationExtension.swift */; };
+		2CE33F6E257A87D5007DCE36 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F6D257A87D5007DCE36 /* Reachability.swift */; };
+		2CE33F72257A8851007DCE36 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F71257A8851007DCE36 /* BaseViewController.swift */; };
+		2CE33F75257A886E007DCE36 /* BaseResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F74257A886E007DCE36 /* BaseResponseModel.swift */; };
+		2CE33F7A257A889B007DCE36 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F79257A889B007DCE36 /* Storyboards.swift */; };
+		2CE33F7E257A88A7007DCE36 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F7D257A88A7007DCE36 /* Navigator.swift */; };
+		2CE33F82257A88CC007DCE36 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F81257A88CC007DCE36 /* UserDefaultsKeys.swift */; };
+		2CE33F86257A88E1007DCE36 /* UserDefaultsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F85257A88E1007DCE36 /* UserDefaultsProtocols.swift */; };
+		2CE33F89257A88FD007DCE36 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE33F88257A88FD007DCE36 /* UserDefaultsManager.swift */; };
+		2CE81F0F25D83DC9002CDEA9 /* TeacherEditProfileRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE81F0E25D83DC9002CDEA9 /* TeacherEditProfileRequest.swift */; };
+		2CEE710A25A76442007464B7 /* TeacherGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEE710825A76442007464B7 /* TeacherGroupCell.swift */; };
+		2CEE710B25A76442007464B7 /* TeacherGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEE710925A76442007464B7 /* TeacherGroupCell.xib */; };
+		2CEEACF125A9D963005901EE /* SelectGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEACEF25A9D963005901EE /* SelectGroupCell.swift */; };
+		2CEEACF225A9D963005901EE /* SelectGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEEACF025A9D963005901EE /* SelectGroupCell.xib */; };
+		2CEEACF525A9E981005901EE /* SendQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEACF425A9E981005901EE /* SendQuestionVC.swift */; };
+		2CEEACF925A9EE9E005901EE /* SendQuestionVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEACF825A9EE9E005901EE /* SendQuestionVC+TableView.swift */; };
+		2CEEAD0225A9F8BC005901EE /* NotificationsAndReportsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAD0125A9F8BC005901EE /* NotificationsAndReportsVC.swift */; };
+		2CEEAD0525A9FA39005901EE /* NotificationsAndReportsVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAD0425A9FA39005901EE /* NotificationsAndReportsVC+TableView.swift */; };
+		2CEEAD0D25A9FBCB005901EE /* NotificationAndReportMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAD0C25A9FBCB005901EE /* NotificationAndReportMessageVC.swift */; };
+		2CEEAD1425AA2086005901EE /* CommunicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAD1325AA2086005901EE /* CommunicationVC.swift */; };
+		2CEEAD1C25AA221C005901EE /* CommunicationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAD1A25AA221C005901EE /* CommunicationCell.swift */; };
+		2CEEAD1D25AA221C005901EE /* CommunicationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEEAD1B25AA221C005901EE /* CommunicationCell.xib */; };
+		2CEEAD2025AA257D005901EE /* CommunicationVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAD1F25AA257D005901EE /* CommunicationVC+TableView.swift */; };
+		2CEEAD2825AA325B005901EE /* CommunicationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAD2725AA325B005901EE /* CommunicationDetailsVC.swift */; };
+		2CEEAD2C25AA3276005901EE /* CommunicationDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAD2A25AA3276005901EE /* CommunicationDetailsCell.swift */; };
+		2CEEAD2D25AA3276005901EE /* CommunicationDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEEAD2B25AA3276005901EE /* CommunicationDetailsCell.xib */; };
+		2CEEAD3025AA341B005901EE /* CommunicationDetailsVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAD2F25AA341B005901EE /* CommunicationDetailsVC+TableView.swift */; };
+		2CF730B225D0A926002AA9FB /* UpdateProfileResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF730B125D0A926002AA9FB /* UpdateProfileResponse.swift */; };
+		2CF730B525D0A94A002AA9FB /* StudentProfileRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF730B425D0A94A002AA9FB /* StudentProfileRequest.swift */; };
+		34A3920EFBD7F209071F5BB4 /* Pods_gather_in.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6439C828F6A06ABDEE88206 /* Pods_gather_in.framework */; };
+		AE01575B2602B13F00FD3452 /* Application+Etentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01575A2602B13F00FD3452 /* Application+Etentions.swift */; };
+		AE01575F2602B22200FD3452 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01575E2602B22200FD3452 /* UserModel.swift */; };
+		AE0157622602B24C00FD3452 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0157612602B24C00FD3452 /* MessageModel.swift */; };
+		AE3D2EB92591209D00A0364B /* PlansVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D2EB82591209D00A0364B /* PlansVC.swift */; };
+		AE3D2EBF259121D700A0364B /* PlansVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D2EBE259121D700A0364B /* PlansVC+TableView.swift */; };
+		AE3D2EC8259126B700A0364B /* TeacherDepartmentDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D2EC7259126B700A0364B /* TeacherDepartmentDetailsVC.swift */; };
+		AE3D2EDC25913C0800A0364B /* CreateDepartmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D2EDB25913C0800A0364B /* CreateDepartmentVC.swift */; };
+		AE3D2EDF259143F000A0364B /* EditDepartmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D2EDE259143F000A0364B /* EditDepartmentVC.swift */; };
+		AE8F587025F7FEBC00C0FB49 /* UpdatePlansRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F586F25F7FEBC00C0FB49 /* UpdatePlansRequest.swift */; };
+		AE8F588925FA5D9000C0FB49 /* SocketHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F588825FA5D8F00C0FB49 /* SocketHelper.swift */; };
+		AE91CA7C260A913700D7FD61 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE91CA7B260A913700D7FD61 /* SocketManager.swift */; };
+		AE91CC9C2611172900D7FD61 /* ChatIDTeacher&Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE91CC9B2611172900D7FD61 /* ChatIDTeacher&Leader.swift */; };
+		AE91CCA02611187900D7FD61 /* ChatIDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE91CC9F2611187900D7FD61 /* ChatIDModel.swift */; };
+		AEE0ABE22613B3CA000473CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEE0ABE12613B3CA000473CE /* GoogleService-Info.plist */; };
+		AEEBEE30258F7BD3009C5627 /* TeacherHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBEE2F258F7BD3009C5627 /* TeacherHomeVC.swift */; };
+		AEEBEE33258FD9BE009C5627 /* ExtentionForUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBEE32258FD9BE009C5627 /* ExtentionForUIView.swift */; };
+		FA8A017E265F027E0052672E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A017B265F027C0052672E /* Config.swift */; };
+		FA8A017F265F027E0052672E /* ApiNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A017C265F027D0052672E /* ApiNames.swift */; };
+		FA8A0180265F027E0052672E /* NetworkingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A017D265F027E0052672E /* NetworkingHelper.swift */; };
+		FA8A0186265F04250052672E /* L102Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A0184265F04240052672E /* L102Language.swift */; };
+		FA8A0187265F04250052672E /* L012Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A0185265F04250052672E /* L012Localizer.swift */; };
+		FA8A018A265F05750052672E /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A0189265F05750052672E /* CommonMethods.swift */; };
+		FA8A018D265FE2220052672E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A018C265FE2220052672E /* User.swift */; };
+		FA8A0192265FE27D0052672E /* sharedPref.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A0191265FE27C0052672E /* sharedPref.swift */; };
+		FA8A0197266072900052672E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA8A0199266072900052672E /* Localizable.strings */; };
+		FA8A020926629A7F0052672E /* GlobalErrorRespons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A020826629A7F0052672E /* GlobalErrorRespons.swift */; };
+		FA8A020C26629AE60052672E /* ValidateCodeRespons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A020B26629AE60052672E /* ValidateCodeRespons.swift */; };
+		FA958D312669A81E00E3BF59 /* AttachmentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA958D302669A81E00E3BF59 /* AttachmentHandler.swift */; };
+		FA958D38266C258100E3BF59 /* DepartmentRespons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA958D37266C258100E3BF59 /* DepartmentRespons.swift */; };
+		FAA15B4126702130007B0835 /* NotificatioRespons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA15B4026702130007B0835 /* NotificatioRespons.swift */; };
+		FAA15C4A2676AEEE007B0835 /* SelectLeaderVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA15C492676AEEE007B0835 /* SelectLeaderVC+TableView.swift */; };
+		FAC550B22667053E000DA7EE /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC550B12667053E000DA7EE /* ProfileModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C28BF918A7D6857FCE6DB62 /* Pods-gather-in.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gather-in.release.xcconfig"; path = "Target Support Files/Pods-gather-in/Pods-gather-in.release.xcconfig"; sourceTree = "<group>"; };
+		2C02793825D2CF94000EB689 /* CreateDepartmentRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDepartmentRequest.swift; sourceTree = "<group>"; };
+		2C02793C25D2D258000EB689 /* CreateDepartmentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDepartmentResponse.swift; sourceTree = "<group>"; };
+		2C02794025D2E207000EB689 /* EditDepartmentRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDepartmentRequest.swift; sourceTree = "<group>"; };
+		2C02D52425B1C6EC0031F742 /* GetPlansResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlansResponse.swift; sourceTree = "<group>"; };
+		2C02D52925B1C7F90031F742 /* PlansRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansRequest.swift; sourceTree = "<group>"; };
+		2C0B794B25810F31004950C1 /* StudentGroupDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGroupDetailsVC.swift; sourceTree = "<group>"; };
+		2C0B7950258115D4004950C1 /* GroupMemberTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMemberTableCell.swift; sourceTree = "<group>"; };
+		2C0EAD0025B09CA20061C16C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		2C0EAD0A25B0AEB00061C16C /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		2C1841F925A79EEE00FC3437 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		2C1841FD25A79F0300FC3437 /* MainTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabBar.storyboard; sourceTree = "<group>"; };
+		2C18420825A7B62800FC3437 /* GroupDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailsVC.swift; sourceTree = "<group>"; };
+		2C18421325A7BC1900FC3437 /* TeacherChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherChatVC.swift; sourceTree = "<group>"; };
+		2C18421625A7BCC600FC3437 /* TeacherChatVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeacherChatVC+TableView.swift"; sourceTree = "<group>"; };
+		2C18421925A7BD6A00FC3437 /* TeacherChatVC+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeacherChatVC+CollectionView.swift"; sourceTree = "<group>"; };
+		2C2A950A25A74F0F00F5E613 /* TeacherDepartmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherDepartmentCell.swift; sourceTree = "<group>"; };
+		2C2A950B25A74F0F00F5E613 /* TeacherDepartmentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherDepartmentCell.xib; sourceTree = "<group>"; };
+		2C2A951325A7544B00F5E613 /* PlansCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansCell.swift; sourceTree = "<group>"; };
+		2C2A951425A7544B00F5E613 /* PlansCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlansCell.xib; sourceTree = "<group>"; };
+		2C37573C25D572B10078E41F /* TeacherGroupsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherGroupsResponse.swift; sourceTree = "<group>"; };
+		2C37574025D573280078E41F /* SendQuestionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendQuestionRequest.swift; sourceTree = "<group>"; };
+		2C408A8E25CDF55B007C2BFE /* StudentHomeRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHomeRequests.swift; sourceTree = "<group>"; };
+		2C408A9225CDF699007C2BFE /* StudentDepartmentsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDepartmentsResponse.swift; sourceTree = "<group>"; };
+		2C40E91B25DAC5B500A7A5A3 /* LeaderChatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderChatsVC.swift; sourceTree = "<group>"; };
+		2C40E91E25DAC7DF00A7A5A3 /* LeaderChatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderChatsCell.swift; sourceTree = "<group>"; };
+		2C40E91F25DAC7DF00A7A5A3 /* LeaderChatsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeaderChatsCell.xib; sourceTree = "<group>"; };
+		2C40E92325DAC7F400A7A5A3 /* LeaderChatsVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeaderChatsVC+TableView.swift"; sourceTree = "<group>"; };
+		2C449E6625B0748A00517059 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
+		2C449E6A25B0760E00517059 /* APIRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestHandler.swift; sourceTree = "<group>"; };
+		2C449E6D25B0762900517059 /* ResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
+		2C449E7025B0776400517059 /* CodableInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableInit.swift; sourceTree = "<group>"; };
+		2C449E8825B0958800517059 /* UserTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTypes.swift; sourceTree = "<group>"; };
+		2C4CCC8C2583C2B40073C20D /* SendAnswerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendAnswerVC.swift; sourceTree = "<group>"; };
+		2C4E4A0625CEE12B0084EE98 /* DepartmentGroups.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DepartmentGroups.storyboard; sourceTree = "<group>"; };
+		2C4E4A0925CEE1680084EE98 /* DepartmentGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentGroupsVC.swift; sourceTree = "<group>"; };
+		2C4E4A0D25CEE1A00084EE98 /* DepartmentGroupsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentGroupsCell.swift; sourceTree = "<group>"; };
+		2C4E4A0E25CEE1A00084EE98 /* DepartmentGroupsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DepartmentGroupsCell.xib; sourceTree = "<group>"; };
+		2C4E4A1325CEE7090084EE98 /* DepartmentGroupsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentGroupsResponse.swift; sourceTree = "<group>"; };
+		2C4E4A1825CEE7E30084EE98 /* DepartmentGroupsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentGroupsRequest.swift; sourceTree = "<group>"; };
+		2C520F142582BB8D004EAEED /* StudentsChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsChatVC.swift; sourceTree = "<group>"; };
+		2C520F602582C071004EAEED /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		2C520F612582C071004EAEED /* ChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		2C5779E62584170D00501542 /* StudentNotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentNotificationsVC.swift; sourceTree = "<group>"; };
+		2C5779EB2584182E00501542 /* BasicNotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNotificationCell.swift; sourceTree = "<group>"; };
+		2C5779EC2584182E00501542 /* BasicNotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicNotificationCell.xib; sourceTree = "<group>"; };
+		2C6302D725D85DA80077402E /* TeacherChangePasswordRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherChangePasswordRequest.swift; sourceTree = "<group>"; };
+		2C6302EC25D889130077402E /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		2C72E3C2257E711D004F8436 /* TypeSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeSelectionVC.swift; sourceTree = "<group>"; };
+		2C7864B725A8C5CB00BF6CC6 /* EditGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGroupVC.swift; sourceTree = "<group>"; };
+		2C7864C325A8CAD500BF6CC6 /* SelectLeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLeaderVC.swift; sourceTree = "<group>"; };
+		2C7864C625A8CB2000BF6CC6 /* SelectLeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLeaderCell.swift; sourceTree = "<group>"; };
+		2C7864C725A8CB2000BF6CC6 /* SelectLeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectLeaderCell.xib; sourceTree = "<group>"; };
+		2C7C69C225A8EDFB002EB4DF /* GroupResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupResultsVC.swift; sourceTree = "<group>"; };
+		2C7C69C525A8EF70002EB4DF /* GroupResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupResultsCell.swift; sourceTree = "<group>"; };
+		2C7C69C625A8EF70002EB4DF /* GroupResultsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupResultsCell.xib; sourceTree = "<group>"; };
+		2C7C69CA25A8F13F002EB4DF /* GroupResultsVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupResultsVC+TableView.swift"; sourceTree = "<group>"; };
+		2C7C69D225A902D5002EB4DF /* ResultDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDetailsCell.swift; sourceTree = "<group>"; };
+		2C7C69D725A90635002EB4DF /* ResultDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDetailsVC.swift; sourceTree = "<group>"; };
+		2C7C69DB25A9082A002EB4DF /* ResultDetailsVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultDetailsVC+TableView.swift"; sourceTree = "<group>"; };
+		2C7DC60325D6B7A40008CE52 /* SelectMemberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMemberCell.swift; sourceTree = "<group>"; };
+		2C7DC60425D6B7A40008CE52 /* SelectMemberCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectMemberCell.xib; sourceTree = "<group>"; };
+		2C7DC60D25D6BFF30008CE52 /* GetDepartmentMembersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDepartmentMembersResponse.swift; sourceTree = "<group>"; };
+		2C7DC61125D6C0400008CE52 /* CreateGroupRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupRequest.swift; sourceTree = "<group>"; };
+		2C7DC61625D6CDA20008CE52 /* EditGroupVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditGroupVC+TableView.swift"; sourceTree = "<group>"; };
+		2C7DC61A25D6D0070008CE52 /* EditGroupRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGroupRequest.swift; sourceTree = "<group>"; };
+		2C7DC62025D6D2240008CE52 /* GroupMembersResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMembersResponseModel.swift; sourceTree = "<group>"; };
+		2C7DC62625D6D92F0008CE52 /* NotificationsAndReportsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsAndReportsRequest.swift; sourceTree = "<group>"; };
+		2C7DC62B25D6E8BC0008CE52 /* NotificatioinsAndReportMessageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificatioinsAndReportMessageRequest.swift; sourceTree = "<group>"; };
+		2C875D1925A892E40007C492 /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
+		2C8AA60725DEA82B00833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TeacherChat.storyboard; sourceTree = "<group>"; };
+		2C8AA60B25DEA83200833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TeacherChat.strings; sourceTree = "<group>"; };
+		2C8AA60D25DEA85700833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CreateGroup.storyboard; sourceTree = "<group>"; };
+		2C8AA61225DEA85A00833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CreateGroup.strings; sourceTree = "<group>"; };
+		2C8AA61425DEA8A900833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/EditGroup.storyboard; sourceTree = "<group>"; };
+		2C8AA61825DEA8AB00833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/EditGroup.strings; sourceTree = "<group>"; };
+		2C8AA61B25DEA8FD00833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SelectLeader.storyboard; sourceTree = "<group>"; };
+		2C8AA62025DEA90100833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SelectLeader.strings; sourceTree = "<group>"; };
+		2C8AA62325DEAA3200833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GroupResults.storyboard; sourceTree = "<group>"; };
+		2C8AA62725DEAA3400833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/GroupResults.strings; sourceTree = "<group>"; };
+		2C8AA62A25DEAA8F00833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ResultDetails.storyboard; sourceTree = "<group>"; };
+		2C8AA62E25DEAAF000833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ResultDetails.strings; sourceTree = "<group>"; };
+		2C8AA63125DEAB0D00833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ResultDetailsCell.xib; sourceTree = "<group>"; };
+		2C8AA63525DEAB1000833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ResultDetailsCell.strings; sourceTree = "<group>"; };
+		2C8AA63825DEAB3100833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SendQuestions.storyboard; sourceTree = "<group>"; };
+		2C8AA63C25DEAB6B00833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SendQuestions.strings; sourceTree = "<group>"; };
+		2C8AA63E25DEAC7100833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NotificationsAndReports.storyboard; sourceTree = "<group>"; };
+		2C8AA64225DEAC7400833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/NotificationsAndReports.strings; sourceTree = "<group>"; };
+		2C8AA64525DEAC9D00833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NotificationAndReportMessage.storyboard; sourceTree = "<group>"; };
+		2C8AA64925DEACA100833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/NotificationAndReportMessage.strings; sourceTree = "<group>"; };
+		2C8AA64B25DEAD0100833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Communication.storyboard; sourceTree = "<group>"; };
+		2C8AA64F25DEAD0600833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Communication.strings; sourceTree = "<group>"; };
+		2C8AA65225DEAD4900833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CommunicationDetails.storyboard; sourceTree = "<group>"; };
+		2C8AA65725DEAD4D00833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CommunicationDetails.strings; sourceTree = "<group>"; };
+		2C8AA65A25DEAD7800833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TeacherNotifications.storyboard; sourceTree = "<group>"; };
+		2C8AA65E25DEAD7A00833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TeacherNotifications.strings; sourceTree = "<group>"; };
+		2C8AA66125DEADA700833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TeacherProfile.storyboard; sourceTree = "<group>"; };
+		2C8AA66525DEADAA00833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TeacherProfile.strings; sourceTree = "<group>"; };
+		2C8AA66825DEADD200833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TeacherSettings.storyboard; sourceTree = "<group>"; };
+		2C8AA66C25DEADD700833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TeacherSettings.strings; sourceTree = "<group>"; };
+		2C8AA66E25DEAE4600833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TeacherEditProfile.storyboard; sourceTree = "<group>"; };
+		2C8AA67325DEAE4A00833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TeacherEditProfile.strings; sourceTree = "<group>"; };
+		2C8AA67525DEAE7200833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TeacherChangePassword.storyboard; sourceTree = "<group>"; };
+		2C8AA67925DEAE7500833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TeacherChangePassword.strings; sourceTree = "<group>"; };
+		2C8AA67C25DEAF4F00833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StudentHome.storyboard; sourceTree = "<group>"; };
+		2C8AA68025DEAF5400833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/StudentHome.strings; sourceTree = "<group>"; };
+		2C8AA68325DEBA3B00833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/StudentDepartmentCell.xib; sourceTree = "<group>"; };
+		2C8AA68725DEBA5000833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/StudentDepartmentCell.strings; sourceTree = "<group>"; };
+		2C8AA68925DEBAC300833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/JoinDepartmentAlert.storyboard; sourceTree = "<group>"; };
+		2C8AA68D25DEBACA00833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/JoinDepartmentAlert.strings; sourceTree = "<group>"; };
+		2C8AA68F25DEBE9100833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StudentGroupDetails.storyboard; sourceTree = "<group>"; };
+		2C8AA69325DEBE9F00833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/StudentGroupDetails.strings; sourceTree = "<group>"; };
+		2C8AA69525DEBF9800833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StudentsChat.storyboard; sourceTree = "<group>"; };
+		2C8AA69925DEBF9B00833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/StudentsChat.strings; sourceTree = "<group>"; };
+		2C8AA69C25DEC00500833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SendAnswer.storyboard; sourceTree = "<group>"; };
+		2C8AA6A025DEC00A00833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SendAnswer.strings; sourceTree = "<group>"; };
+		2C8AA6A225DEC07F00833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StudentNotifications.storyboard; sourceTree = "<group>"; };
+		2C8AA6A625DEC08200833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/StudentNotifications.strings; sourceTree = "<group>"; };
+		2C8AA6A925DEC0A300833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StudentSettings.storyboard; sourceTree = "<group>"; };
+		2C8AA6AD25DEC0AC00833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/StudentSettings.strings; sourceTree = "<group>"; };
+		2C8AA6B025DEC2B300833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LeaderChats.storyboard; sourceTree = "<group>"; };
+		2C8AA6B425DEC2B900833297 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LeaderChats.strings; sourceTree = "<group>"; };
+		2C8AA6B625DEC2E100833297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StudentProfile.storyboard; sourceTree = "<group>"; };
+		2C8AA6BD25DED2EB00833297 /* ChangePassword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChangePassword.storyboard; sourceTree = "<group>"; };
+		2C8AA6C025DED40000833297 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		2C8AA6C925DEE69F00833297 /* StudentChangePassword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentChangePassword.storyboard; sourceTree = "<group>"; };
+		2C8AA6CC25DEE70A00833297 /* StudentChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentChangePasswordVC.swift; sourceTree = "<group>"; };
+		2C8AA6D025DEE77300833297 /* StudentChangePasswordRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentChangePasswordRequest.swift; sourceTree = "<group>"; };
+		2C8C673B25D40F6F00635C06 /* SelectLeaderRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLeaderRequests.swift; sourceTree = "<group>"; };
+		2C8C673F25D40FA200635C06 /* GetGroupMembersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGroupMembersResponse.swift; sourceTree = "<group>"; };
+		2C8C674625D42FDC00635C06 /* GroupResultsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupResultsResponse.swift; sourceTree = "<group>"; };
+		2C8C674A25D4300D00635C06 /* GroupResultsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupResultsRequest.swift; sourceTree = "<group>"; };
+		2C9726832582B6CD00C16333 /* MemberCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCollectionCell.swift; sourceTree = "<group>"; };
+		2C9726842582B6CD00C16333 /* MemberCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberCollectionCell.xib; sourceTree = "<group>"; };
+		2C9B698825DF105300C6AAD5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/StudentProfile.strings; sourceTree = "<group>"; };
+		2C9C1D7E258662DD00924EF4 /* AboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
+		2CA17BF925DDA16400A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2CA17BFB25DDA2B900A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TypeSelection.storyboard; sourceTree = "<group>"; };
+		2CA17BFF25DDA2BF00A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TypeSelection.strings; sourceTree = "<group>"; };
+		2CA17C0125DDA3DC00A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		2CA17C0525DDA3E000A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Login.strings; sourceTree = "<group>"; };
+		2CA17C0725DDA4FE00A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Registration.storyboard; sourceTree = "<group>"; };
+		2CA17C0C25DDA50200A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Registration.strings; sourceTree = "<group>"; };
+		2CA17C0E25DDA5F700A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AlreadyRegisteredAlert.storyboard; sourceTree = "<group>"; };
+		2CA17C1225DDA5FD00A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AlreadyRegisteredAlert.strings; sourceTree = "<group>"; };
+		2CA17C1425DDA73D00A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Verfication.storyboard; sourceTree = "<group>"; };
+		2CA17C1825DDA74200A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Verfication.strings; sourceTree = "<group>"; };
+		2CA17C1B25DDA86600A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AboutUs.storyboard; sourceTree = "<group>"; };
+		2CA17C1F25DDA86A00A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AboutUs.strings; sourceTree = "<group>"; };
+		2CA17C2225DDA88A00A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SentSuccessfully.storyboard; sourceTree = "<group>"; };
+		2CA17C2625DDA88E00A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SentSuccessfully.strings; sourceTree = "<group>"; };
+		2CA17C2825DDA8AE00A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ForgotPassword.storyboard; sourceTree = "<group>"; };
+		2CA17C2C25DDA8B400A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ForgotPassword.strings; sourceTree = "<group>"; };
+		2CA17C2F25DDA91900A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GroupMemberTableCell.xib; sourceTree = "<group>"; };
+		2CA17C3325DDA91E00A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/GroupMemberTableCell.strings; sourceTree = "<group>"; };
+		2CA17C3625DDA95600A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TeacherHome.storyboard; sourceTree = "<group>"; };
+		2CA17C3A25DDAA4300A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TeacherHome.strings; sourceTree = "<group>"; };
+		2CA17C3D25DDAC4600A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Plans.storyboard; sourceTree = "<group>"; };
+		2CA17C4125DDAC9600A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Plans.strings; sourceTree = "<group>"; };
+		2CA17C4425DDADCB00A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TeacherDepartmentDetails.storyboard; sourceTree = "<group>"; };
+		2CA17C4825DDADD000A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TeacherDepartmentDetails.strings; sourceTree = "<group>"; };
+		2CA17C4B25DDAE7700A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CreateDepartment.storyboard; sourceTree = "<group>"; };
+		2CA17C4F25DDAE7A00A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CreateDepartment.strings; sourceTree = "<group>"; };
+		2CA17C5225DDAFA600A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/EditDepartment.storyboard; sourceTree = "<group>"; };
+		2CA17C5625DDAFA900A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/EditDepartment.strings; sourceTree = "<group>"; };
+		2CA17C5825DDAFFF00A9AB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GroupDetails.storyboard; sourceTree = "<group>"; };
+		2CA17C5C25DDB00300A9AB3C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/GroupDetails.strings; sourceTree = "<group>"; };
+		2CA9B1D425D5D2B100AD2139 /* TeacherNotificationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherNotificationsResponse.swift; sourceTree = "<group>"; };
+		2CA9B1D925D5D30400AD2139 /* TeacherNotficationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherNotficationRequest.swift; sourceTree = "<group>"; };
+		2CAFCD52257FB67C00586FAF /* AlreadyRegisteredAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlreadyRegisteredAlertVC.swift; sourceTree = "<group>"; };
+		2CAFCD5B257FB93500586FAF /* VerficationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerficationVC.swift; sourceTree = "<group>"; };
+		2CCA7FAC25801B3000A6866D /* StudentDepartmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDepartmentCell.swift; sourceTree = "<group>"; };
+		2CCA7FB32580328B00A6866D /* StudentHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHomeVC.swift; sourceTree = "<group>"; };
+		2CCA7FBC258039AE00A6866D /* JoinDepartmentAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinDepartmentAlertVC.swift; sourceTree = "<group>"; };
+		2CCD5A652584FB2300B51949 /* StudentProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileVC.swift; sourceTree = "<group>"; };
+		2CCD5A6C2584FB7A00B51949 /* StudentSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSettingsVC.swift; sourceTree = "<group>"; };
+		2CCD5A702585002600B51949 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		2CCD5A712585002600B51949 /* SettingsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsCell.xib; sourceTree = "<group>"; };
+		2CCD5A75258500E200B51949 /* StudentSettings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StudentSettings.json; sourceTree = "<group>"; };
+		2CCD5A842585025800B51949 /* StudentSettingsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSettingsResponseModel.swift; sourceTree = "<group>"; };
+		2CD3F2D52583CB2200E413B9 /* SentSuccessfullyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentSuccessfullyVC.swift; sourceTree = "<group>"; };
+		2CD634B625AB9CF200E4C75F /* TeacherNotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherNotificationsVC.swift; sourceTree = "<group>"; };
+		2CD634B925AB9D1D00E4C75F /* TeacherNotificationsVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeacherNotificationsVC+TableView.swift"; sourceTree = "<group>"; };
+		2CD634CD25ABA47B00E4C75F /* TeacherProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherProfileVC.swift; sourceTree = "<group>"; };
+		2CD634D525ABAD2E00E4C75F /* TeacherSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherSettingsVC.swift; sourceTree = "<group>"; };
+		2CD634D825ABAD4600E4C75F /* TeacherSettings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TeacherSettings.json; sourceTree = "<group>"; };
+		2CD634DB25ABAD5E00E4C75F /* TeacherSettingsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherSettingsResponseModel.swift; sourceTree = "<group>"; };
+		2CD634DF25ABADBD00E4C75F /* TeacherSettingsVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeacherSettingsVC+TableView.swift"; sourceTree = "<group>"; };
+		2CD634E625ABB0A800E4C75F /* TeacherEditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherEditProfileVC.swift; sourceTree = "<group>"; };
+		2CD634ED25ABB36600E4C75F /* TeacherChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherChangePasswordVC.swift; sourceTree = "<group>"; };
+		2CDE3390257E785500020462 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		2CDE3393257E806600020462 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		2CDE339B257E83CE00020462 /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		2CE102DF25CF3C9100AEF788 /* StudentGroupDetailsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGroupDetailsRequest.swift; sourceTree = "<group>"; };
+		2CE102E225CF3CAE00AEF788 /* GroupDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailsResponse.swift; sourceTree = "<group>"; };
+		2CE33F0B257A8440007DCE36 /* gather-in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gather-in.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE33F0E257A8440007DCE36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CE33F17257A8442007DCE36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CE33F1A257A8442007DCE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CE33F1C257A8442007DCE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE33F5E257A85F6007DCE36 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		2CE33F61257A8658007DCE36 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		2CE33F64257A866C007DCE36 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		2CE33F6A257A86D6007DCE36 /* LocalizationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationExtension.swift; sourceTree = "<group>"; };
+		2CE33F6D257A87D5007DCE36 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2CE33F71257A8851007DCE36 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2CE33F74257A886E007DCE36 /* BaseResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponseModel.swift; sourceTree = "<group>"; };
+		2CE33F79257A889B007DCE36 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		2CE33F7D257A88A7007DCE36 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		2CE33F81257A88CC007DCE36 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		2CE33F85257A88E1007DCE36 /* UserDefaultsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsProtocols.swift; sourceTree = "<group>"; };
+		2CE33F88257A88FD007DCE36 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		2CE81F0E25D83DC9002CDEA9 /* TeacherEditProfileRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherEditProfileRequest.swift; sourceTree = "<group>"; };
+		2CEE710825A76442007464B7 /* TeacherGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherGroupCell.swift; sourceTree = "<group>"; };
+		2CEE710925A76442007464B7 /* TeacherGroupCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherGroupCell.xib; sourceTree = "<group>"; };
+		2CEEACEF25A9D963005901EE /* SelectGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGroupCell.swift; sourceTree = "<group>"; };
+		2CEEACF025A9D963005901EE /* SelectGroupCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectGroupCell.xib; sourceTree = "<group>"; };
+		2CEEACF425A9E981005901EE /* SendQuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendQuestionVC.swift; sourceTree = "<group>"; };
+		2CEEACF825A9EE9E005901EE /* SendQuestionVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SendQuestionVC+TableView.swift"; sourceTree = "<group>"; };
+		2CEEAD0125A9F8BC005901EE /* NotificationsAndReportsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsAndReportsVC.swift; sourceTree = "<group>"; };
+		2CEEAD0425A9FA39005901EE /* NotificationsAndReportsVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationsAndReportsVC+TableView.swift"; sourceTree = "<group>"; };
+		2CEEAD0C25A9FBCB005901EE /* NotificationAndReportMessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAndReportMessageVC.swift; sourceTree = "<group>"; };
+		2CEEAD1325AA2086005901EE /* CommunicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationVC.swift; sourceTree = "<group>"; };
+		2CEEAD1A25AA221C005901EE /* CommunicationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationCell.swift; sourceTree = "<group>"; };
+		2CEEAD1B25AA221C005901EE /* CommunicationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommunicationCell.xib; sourceTree = "<group>"; };
+		2CEEAD1F25AA257D005901EE /* CommunicationVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommunicationVC+TableView.swift"; sourceTree = "<group>"; };
+		2CEEAD2725AA325B005901EE /* CommunicationDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationDetailsVC.swift; sourceTree = "<group>"; };
+		2CEEAD2A25AA3276005901EE /* CommunicationDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationDetailsCell.swift; sourceTree = "<group>"; };
+		2CEEAD2B25AA3276005901EE /* CommunicationDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommunicationDetailsCell.xib; sourceTree = "<group>"; };
+		2CEEAD2F25AA341B005901EE /* CommunicationDetailsVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommunicationDetailsVC+TableView.swift"; sourceTree = "<group>"; };
+		2CF730B125D0A926002AA9FB /* UpdateProfileResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileResponse.swift; sourceTree = "<group>"; };
+		2CF730B425D0A94A002AA9FB /* StudentProfileRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileRequest.swift; sourceTree = "<group>"; };
+		69C05829475B8DABA2A0C720 /* Pods-gather-in.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gather-in.debug.xcconfig"; path = "Target Support Files/Pods-gather-in/Pods-gather-in.debug.xcconfig"; sourceTree = "<group>"; };
+		AE01575A2602B13F00FD3452 /* Application+Etentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Application+Etentions.swift"; sourceTree = "<group>"; };
+		AE01575E2602B22200FD3452 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		AE0157612602B24C00FD3452 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		AE3D2EB82591209D00A0364B /* PlansVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansVC.swift; sourceTree = "<group>"; };
+		AE3D2EBE259121D700A0364B /* PlansVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlansVC+TableView.swift"; sourceTree = "<group>"; };
+		AE3D2EC7259126B700A0364B /* TeacherDepartmentDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherDepartmentDetailsVC.swift; sourceTree = "<group>"; };
+		AE3D2EDB25913C0800A0364B /* CreateDepartmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDepartmentVC.swift; sourceTree = "<group>"; };
+		AE3D2EDE259143F000A0364B /* EditDepartmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDepartmentVC.swift; sourceTree = "<group>"; };
+		AE8F586F25F7FEBC00C0FB49 /* UpdatePlansRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePlansRequest.swift; sourceTree = "<group>"; };
+		AE8F588825FA5D8F00C0FB49 /* SocketHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketHelper.swift; sourceTree = "<group>"; };
+		AE91CA7B260A913700D7FD61 /* SocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		AE91CC9B2611172900D7FD61 /* ChatIDTeacher&Leader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatIDTeacher&Leader.swift"; sourceTree = "<group>"; };
+		AE91CC9F2611187900D7FD61 /* ChatIDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatIDModel.swift; sourceTree = "<group>"; };
+		AEE0ABE12613B3CA000473CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AEE0AC322613C6D6000473CE /* gather-in.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "gather-in.entitlements"; sourceTree = "<group>"; };
+		AEEBEE2F258F7BD3009C5627 /* TeacherHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherHomeVC.swift; sourceTree = "<group>"; };
+		AEEBEE32258FD9BE009C5627 /* ExtentionForUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionForUIView.swift; sourceTree = "<group>"; };
+		D6439C828F6A06ABDEE88206 /* Pods_gather_in.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gather_in.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8A017B265F027C0052672E /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		FA8A017C265F027D0052672E /* ApiNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiNames.swift; sourceTree = "<group>"; };
+		FA8A017D265F027E0052672E /* NetworkingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingHelper.swift; sourceTree = "<group>"; };
+		FA8A0184265F04240052672E /* L102Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L102Language.swift; sourceTree = "<group>"; };
+		FA8A0185265F04250052672E /* L012Localizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L012Localizer.swift; sourceTree = "<group>"; };
+		FA8A0189265F05750052672E /* CommonMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		FA8A018C265FE2220052672E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA8A0191265FE27C0052672E /* sharedPref.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sharedPref.swift; sourceTree = "<group>"; };
+		FA8A0198266072900052672E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FA8A019B266072950052672E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FA8A020826629A7F0052672E /* GlobalErrorRespons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalErrorRespons.swift; sourceTree = "<group>"; };
+		FA8A020B26629AE60052672E /* ValidateCodeRespons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateCodeRespons.swift; sourceTree = "<group>"; };
+		FA958D302669A81E00E3BF59 /* AttachmentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentHandler.swift; sourceTree = "<group>"; };
+		FA958D37266C258100E3BF59 /* DepartmentRespons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentRespons.swift; sourceTree = "<group>"; };
+		FAA15B4026702130007B0835 /* NotificatioRespons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificatioRespons.swift; sourceTree = "<group>"; };
+		FAA15C492676AEEE007B0835 /* SelectLeaderVC+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectLeaderVC+TableView.swift"; sourceTree = "<group>"; };
+		FAC550B12667053E000DA7EE /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE33F08257A8440007DCE36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A3920EFBD7F209071F5BB4 /* Pods_gather_in.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C02793625D2CE9B000EB689 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C02793725D2CF77000EB689 /* Responses */,
+				2C02793825D2CF94000EB689 /* CreateDepartmentRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C02793725D2CF77000EB689 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2C02793C25D2D258000EB689 /* CreateDepartmentResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2C02793F25D2E18E000EB689 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C02794025D2E207000EB689 /* EditDepartmentRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C02D52225B1C61C0031F742 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F586D25F7FE8D00C0FB49 /* NetworkForUpdatePlans */,
+				2C02D52325B1C6260031F742 /* Responses */,
+				2C02D52925B1C7F90031F742 /* PlansRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C02D52325B1C6260031F742 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2C02D52425B1C6EC0031F742 /* GetPlansResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2C0AF2A525D34538000F0ED1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C8C673E25D40F7300635C06 /* Responses */,
+				2C8C673B25D40F6F00635C06 /* SelectLeaderRequests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C0B794E2581156E004950C1 /* CommonCells */ = {
+			isa = PBXGroup;
+			children = (
+				2C5779E9258417CD00501542 /* BasicNotificationCell */,
+				2C520F202582BFCA004EAEED /* ChatCell */,
+				2C9726822582B6B300C16333 /* MemberCollectionCell */,
+				2C0B794F25811588004950C1 /* MemberTableCell */,
+				2CCD5A6F2584FFF300B51949 /* SettingsCell */,
+				2C875D3525A8BBEC0007C492 /* SelectMemberCell */,
+				2CEEACFC25A9F7AE005901EE /* SelectGroupCell */,
+			);
+			path = CommonCells;
+			sourceTree = "<group>";
+		};
+		2C0B794F25811588004950C1 /* MemberTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B7950258115D4004950C1 /* GroupMemberTableCell.swift */,
+				2CA17C3025DDA91900A9AB3C /* GroupMemberTableCell.xib */,
+			);
+			path = MemberTableCell;
+			sourceTree = "<group>";
+		};
+		2C13B5592582AB8F002E9BDF /* StudentsChat */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA69625DEBF9800833297 /* StudentsChat.storyboard */,
+				2C520F142582BB8D004EAEED /* StudentsChatVC.swift */,
+			);
+			path = StudentsChat;
+			sourceTree = "<group>";
+		};
+		2C1841F825A79EC400FC3437 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				2C1841F925A79EEE00FC3437 /* MainTabBarVC.swift */,
+				2C1841FD25A79F0300FC3437 /* MainTabBar.storyboard */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		2C18420325A7AFA200FC3437 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C5925DDAFFF00A9AB3C /* GroupDetails.storyboard */,
+				2C18420825A7B62800FC3437 /* GroupDetailsVC.swift */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		2C18420F25A7BAF300FC3437 /* TeacherChat */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA60825DEA82B00833297 /* TeacherChat.storyboard */,
+				2C18421325A7BC1900FC3437 /* TeacherChatVC.swift */,
+				2C18421925A7BD6A00FC3437 /* TeacherChatVC+CollectionView.swift */,
+				2C18421625A7BCC600FC3437 /* TeacherChatVC+TableView.swift */,
+			);
+			path = TeacherChat;
+			sourceTree = "<group>";
+		};
+		2C2A951A25A756A100F5E613 /* CreateDepartment */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C4C25DDAE7700A9AB3C /* CreateDepartment.storyboard */,
+				AE3D2EDB25913C0800A0364B /* CreateDepartmentVC.swift */,
+				2C02793625D2CE9B000EB689 /* Networking */,
+			);
+			path = CreateDepartment;
+			sourceTree = "<group>";
+		};
+		2C2A951E25A7593D00F5E613 /* EditDepartment */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C5325DDAFA600A9AB3C /* EditDepartment.storyboard */,
+				AE3D2EDE259143F000A0364B /* EditDepartmentVC.swift */,
+				2C02793F25D2E18E000EB689 /* Networking */,
+			);
+			path = EditDepartment;
+			sourceTree = "<group>";
+		};
+		2C37573A25D572170078E41F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C37573B25D572200078E41F /* Responses */,
+				2C37574025D573280078E41F /* SendQuestionRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C37573B25D572200078E41F /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2C37573C25D572B10078E41F /* TeacherGroupsResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2C408A8C25CDF52F007C2BFE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C408A8D25CDF543007C2BFE /* Responses */,
+				2C408A8E25CDF55B007C2BFE /* StudentHomeRequests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C408A8D25CDF543007C2BFE /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2C408A9225CDF699007C2BFE /* StudentDepartmentsResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2C449E6525B0745B00517059 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2C449E6625B0748A00517059 /* URLRequestBuilder.swift */,
+				2C449E6A25B0760E00517059 /* APIRequestHandler.swift */,
+				2C449E6D25B0762900517059 /* ResponseHandler.swift */,
+				2C449E7025B0776400517059 /* CodableInit.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2C4CCC882583C2560073C20D /* SendAnswer */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA69D25DEC00500833297 /* SendAnswer.storyboard */,
+				2C4CCC8C2583C2B40073C20D /* SendAnswerVC.swift */,
+			);
+			path = SendAnswer;
+			sourceTree = "<group>";
+		};
+		2C4E4A0525CEE10F0084EE98 /* DepartmentGroups */ = {
+			isa = PBXGroup;
+			children = (
+				2C4E4A0625CEE12B0084EE98 /* DepartmentGroups.storyboard */,
+				2C4E4A0925CEE1680084EE98 /* DepartmentGroupsVC.swift */,
+				2C4E4A0D25CEE1A00084EE98 /* DepartmentGroupsCell.swift */,
+				2C4E4A0E25CEE1A00084EE98 /* DepartmentGroupsCell.xib */,
+				2C4E4A1625CEE7B70084EE98 /* Networking */,
+			);
+			path = DepartmentGroups;
+			sourceTree = "<group>";
+		};
+		2C4E4A1625CEE7B70084EE98 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C4E4A1725CEE7C30084EE98 /* Responses */,
+				2C4E4A1825CEE7E30084EE98 /* DepartmentGroupsRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C4E4A1725CEE7C30084EE98 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2C4E4A1325CEE7090084EE98 /* DepartmentGroupsResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2C520F202582BFCA004EAEED /* ChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				2C520F602582C071004EAEED /* ChatCell.swift */,
+				2C520F612582C071004EAEED /* ChatCell.xib */,
+			);
+			path = ChatCell;
+			sourceTree = "<group>";
+		};
+		2C5779E22584152E00501542 /* StudentNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA6A325DEC07F00833297 /* StudentNotifications.storyboard */,
+				2C5779E62584170D00501542 /* StudentNotificationsVC.swift */,
+				2CF730A625D09B15002AA9FB /* Networking */,
+			);
+			path = StudentNotifications;
+			sourceTree = "<group>";
+		};
+		2C5779E9258417CD00501542 /* BasicNotificationCell */ = {
+			isa = PBXGroup;
+			children = (
+				2C5779EB2584182E00501542 /* BasicNotificationCell.swift */,
+				2C5779EC2584182E00501542 /* BasicNotificationCell.xib */,
+			);
+			path = BasicNotificationCell;
+			sourceTree = "<group>";
+		};
+		2C6302D625D85D560077402E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C6302D725D85DA80077402E /* TeacherChangePasswordRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C6302E725D87FEB0077402E /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C2925DDA8AE00A9AB3C /* ForgotPassword.storyboard */,
+				2C6302EC25D889130077402E /* ForgotPasswordVC.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		2C632E632580FD3D00FAF2D8 /* GroupDetails */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA69025DEBE9100833297 /* StudentGroupDetails.storyboard */,
+				2C0B794B25810F31004950C1 /* StudentGroupDetailsVC.swift */,
+				2CE102D625CF347600AEF788 /* Networking */,
+			);
+			path = GroupDetails;
+			sourceTree = "<group>";
+		};
+		2C72E3BB257E6600004F8436 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B794E2581156E004950C1 /* CommonCells */,
+				2C72E3C1257E70F5004F8436 /* TypeSelection */,
+				2CAFCD4E257FAFBB00586FAF /* AlreadyRegisteredAlert */,
+				2C9C1D7A2586625600924EF4 /* AboutUs */,
+				2CD3F2D12583CAE800E413B9 /* SentSuccessfully */,
+				2C6302E725D87FEB0077402E /* ForgotPassword */,
+				2C8AA6BC25DED2CC00833297 /* ChangePassword */,
+				2CDE3397257E834900020462 /* Registration */,
+				2CAFCD56257FB8A000586FAF /* Verfication */,
+				2CDE338C257E783100020462 /* Login */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2C72E3BC257E6626004F8436 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				2CCA7FA52580184200A6866D /* Home */,
+				2CCA7FB82580398400A6866D /* JoinDepartmentAlert */,
+				2C4E4A0525CEE10F0084EE98 /* DepartmentGroups */,
+				2C632E632580FD3D00FAF2D8 /* GroupDetails */,
+				2C13B5592582AB8F002E9BDF /* StudentsChat */,
+				2C4CCC882583C2560073C20D /* SendAnswer */,
+				2C5779E22584152E00501542 /* StudentNotifications */,
+				2CCD5A682584FB5C00B51949 /* StudentSettings */,
+				2CF730B725D0C0CE002AA9FB /* LeaderChats */,
+				2CCD5A5E2584FA0C00B51949 /* StudentProfile */,
+				2C8AA6C825DEE68900833297 /* StudentChangePassword */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		2C72E3BD257E6630004F8436 /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				2C1841F825A79EC400FC3437 /* Tabbar */,
+				AEEBEE2B258F7B82009C5627 /* Home */,
+				AE3D2EAD2591178000A0364B /* Plans */,
+				AE3D2EC32591249C00A0364B /* DepatmentDetails */,
+				2C2A951A25A756A100F5E613 /* CreateDepartment */,
+				2C2A951E25A7593D00F5E613 /* EditDepartment */,
+				2C18420325A7AFA200FC3437 /* Group */,
+				2C18420F25A7BAF300FC3437 /* TeacherChat */,
+				2C875D1525A892AC0007C492 /* CreateGroup */,
+				2C875D3125A8BB570007C492 /* EditGroup */,
+				2C7864BE25A8C7EF00BF6CC6 /* SelectLeader */,
+				2C7C69BE25A8E783002EB4DF /* GroupResults */,
+				2C7C69CE25A901A1002EB4DF /* ResultDetails */,
+				2CEEACEB25A9D4D5005901EE /* SendQuestions */,
+				2CEEACFD25A9F880005901EE /* NotificationsAndReports */,
+				2CEEAD0825A9FB92005901EE /* NotificationAndReportMessage */,
+				2CEEAD0F25AA204B005901EE /* Communication */,
+				2CEEAD2325AA308B005901EE /* CommunicationDetails */,
+				2CD634B125AB9C6100E4C75F /* TeacherNotifications */,
+				2CD634C925ABA45200E4C75F /* TeacherProfile */,
+				2CD634D025ABAC3F00E4C75F /* TeacherSettings */,
+				2CD634E225ABB06D00E4C75F /* TeacherEditProfile */,
+				2CD634E925ABB2E900E4C75F /* TeacherChangePassword */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		2C72E3C1257E70F5004F8436 /* TypeSelection */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17BFC25DDA2B900A9AB3C /* TypeSelection.storyboard */,
+				2C72E3C2257E711D004F8436 /* TypeSelectionVC.swift */,
+				2C449E8825B0958800517059 /* UserTypes.swift */,
+			);
+			path = TypeSelection;
+			sourceTree = "<group>";
+		};
+		2C7864BE25A8C7EF00BF6CC6 /* SelectLeader */ = {
+			isa = PBXGroup;
+			children = (
+				FAA15C492676AEEE007B0835 /* SelectLeaderVC+TableView.swift */,
+				2C8AA61C25DEA8FD00833297 /* SelectLeader.storyboard */,
+				2C7864C325A8CAD500BF6CC6 /* SelectLeaderVC.swift */,
+				2C7864C625A8CB2000BF6CC6 /* SelectLeaderCell.swift */,
+				2C7864C725A8CB2000BF6CC6 /* SelectLeaderCell.xib */,
+				2C0AF2A525D34538000F0ED1 /* Networking */,
+			);
+			path = SelectLeader;
+			sourceTree = "<group>";
+		};
+		2C7C69BE25A8E783002EB4DF /* GroupResults */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA62425DEAA3200833297 /* GroupResults.storyboard */,
+				2C7C69C225A8EDFB002EB4DF /* GroupResultsVC.swift */,
+				2C7C69C525A8EF70002EB4DF /* GroupResultsCell.swift */,
+				2C7C69C625A8EF70002EB4DF /* GroupResultsCell.xib */,
+				2C7C69CA25A8F13F002EB4DF /* GroupResultsVC+TableView.swift */,
+				2C8C674325D42F9F00635C06 /* Networking */,
+			);
+			path = GroupResults;
+			sourceTree = "<group>";
+		};
+		2C7C69CE25A901A1002EB4DF /* ResultDetails */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA62B25DEAA8F00833297 /* ResultDetails.storyboard */,
+				2C7C69D725A90635002EB4DF /* ResultDetailsVC.swift */,
+				2C7C69D225A902D5002EB4DF /* ResultDetailsCell.swift */,
+				2C8AA63225DEAB0D00833297 /* ResultDetailsCell.xib */,
+				2C7C69DB25A9082A002EB4DF /* ResultDetailsVC+TableView.swift */,
+			);
+			path = ResultDetails;
+			sourceTree = "<group>";
+		};
+		2C7DC60B25D6BA080008CE52 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C7DC60C25D6BA100008CE52 /* Responses */,
+				2C7DC61125D6C0400008CE52 /* CreateGroupRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C7DC60C25D6BA100008CE52 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2C7DC60D25D6BFF30008CE52 /* GetDepartmentMembersResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2C7DC61925D6CFEA0008CE52 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C7DC61E25D6D00B0008CE52 /* Responses */,
+				2C7DC61A25D6D0070008CE52 /* EditGroupRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C7DC61E25D6D00B0008CE52 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2C7DC62025D6D2240008CE52 /* GroupMembersResponseModel.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2C7DC62325D6D8DA0008CE52 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2C7DC62425D6D8F40008CE52 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C7DC62325D6D8DA0008CE52 /* Responses */,
+				2C7DC62625D6D92F0008CE52 /* NotificationsAndReportsRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C7DC62A25D6E89B0008CE52 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C7DC62B25D6E8BC0008CE52 /* NotificatioinsAndReportMessageRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C875D1525A892AC0007C492 /* CreateGroup */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA60E25DEA85700833297 /* CreateGroup.storyboard */,
+				2C875D1925A892E40007C492 /* CreateGroupVC.swift */,
+				2C7DC60B25D6BA080008CE52 /* Networking */,
+			);
+			path = CreateGroup;
+			sourceTree = "<group>";
+		};
+		2C875D3125A8BB570007C492 /* EditGroup */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA61525DEA8A900833297 /* EditGroup.storyboard */,
+				2C7864B725A8C5CB00BF6CC6 /* EditGroupVC.swift */,
+				2C7DC61625D6CDA20008CE52 /* EditGroupVC+TableView.swift */,
+				2C7DC61925D6CFEA0008CE52 /* Networking */,
+			);
+			path = EditGroup;
+			sourceTree = "<group>";
+		};
+		2C875D3525A8BBEC0007C492 /* SelectMemberCell */ = {
+			isa = PBXGroup;
+			children = (
+				2C7DC60325D6B7A40008CE52 /* SelectMemberCell.swift */,
+				2C7DC60425D6B7A40008CE52 /* SelectMemberCell.xib */,
+			);
+			path = SelectMemberCell;
+			sourceTree = "<group>";
+		};
+		2C8AA6BC25DED2CC00833297 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA6BD25DED2EB00833297 /* ChangePassword.storyboard */,
+				2C8AA6C025DED40000833297 /* ChangePasswordVC.swift */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		2C8AA6C825DEE68900833297 /* StudentChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA6CF25DEE75700833297 /* Networking */,
+				2C8AA6C925DEE69F00833297 /* StudentChangePassword.storyboard */,
+				2C8AA6CC25DEE70A00833297 /* StudentChangePasswordVC.swift */,
+			);
+			path = StudentChangePassword;
+			sourceTree = "<group>";
+		};
+		2C8AA6CF25DEE75700833297 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA6D025DEE77300833297 /* StudentChangePasswordRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C8C673E25D40F7300635C06 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2C8C673F25D40FA200635C06 /* GetGroupMembersResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2C8C674325D42F9F00635C06 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2C8C674425D42FA600635C06 /* Responses */,
+				2C8C674A25D4300D00635C06 /* GroupResultsRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C8C674425D42FA600635C06 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2C8C674625D42FDC00635C06 /* GroupResultsResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2C9726822582B6B300C16333 /* MemberCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				2C9726832582B6CD00C16333 /* MemberCollectionCell.swift */,
+				2C9726842582B6CD00C16333 /* MemberCollectionCell.xib */,
+			);
+			path = MemberCollectionCell;
+			sourceTree = "<group>";
+		};
+		2C9B697125DEF7C800C6AAD5 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				2CE33F6A257A86D6007DCE36 /* LocalizationExtension.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		2C9C1D7A2586625600924EF4 /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C1C25DDA86600A9AB3C /* AboutUs.storyboard */,
+				2C9C1D7E258662DD00924EF4 /* AboutUsVC.swift */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		2CA9B1D225D5D23A00AD2139 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2CA9B1D725D5D2EA00AD2139 /* Responses */,
+				2CA9B1D925D5D30400AD2139 /* TeacherNotficationRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2CA9B1D725D5D2EA00AD2139 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2CA9B1D425D5D2B100AD2139 /* TeacherNotificationsResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2CAFCD4E257FAFBB00586FAF /* AlreadyRegisteredAlert */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C0F25DDA5F700A9AB3C /* AlreadyRegisteredAlert.storyboard */,
+				2CAFCD52257FB67C00586FAF /* AlreadyRegisteredAlertVC.swift */,
+			);
+			path = AlreadyRegisteredAlert;
+			sourceTree = "<group>";
+		};
+		2CAFCD56257FB8A000586FAF /* Verfication */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C1525DDA73D00A9AB3C /* Verfication.storyboard */,
+				2CAFCD5B257FB93500586FAF /* VerficationVC.swift */,
+			);
+			path = Verfication;
+			sourceTree = "<group>";
+		};
+		2CCA7FA52580184200A6866D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA67D25DEAF4F00833297 /* StudentHome.storyboard */,
+				2CCA7FB32580328B00A6866D /* StudentHomeVC.swift */,
+				2C8AA68425DEBA3B00833297 /* StudentDepartmentCell.xib */,
+				2CCA7FAC25801B3000A6866D /* StudentDepartmentCell.swift */,
+				2C408A8C25CDF52F007C2BFE /* Networking */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2CCA7FB82580398400A6866D /* JoinDepartmentAlert */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA68A25DEBAC300833297 /* JoinDepartmentAlert.storyboard */,
+				2CCA7FBC258039AE00A6866D /* JoinDepartmentAlertVC.swift */,
+			);
+			path = JoinDepartmentAlert;
+			sourceTree = "<group>";
+		};
+		2CCD5A5E2584FA0C00B51949 /* StudentProfile */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA6B725DEC2E100833297 /* StudentProfile.storyboard */,
+				2CCD5A652584FB2300B51949 /* StudentProfileVC.swift */,
+				2CF730AF25D0A8FC002AA9FB /* Networking */,
+			);
+			path = StudentProfile;
+			sourceTree = "<group>";
+		};
+		2CCD5A682584FB5C00B51949 /* StudentSettings */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA6AA25DEC0A300833297 /* StudentSettings.storyboard */,
+				2CCD5A6C2584FB7A00B51949 /* StudentSettingsVC.swift */,
+				2CCD5A75258500E200B51949 /* StudentSettings.json */,
+				2CCD5A842585025800B51949 /* StudentSettingsResponseModel.swift */,
+			);
+			path = StudentSettings;
+			sourceTree = "<group>";
+		};
+		2CCD5A6F2584FFF300B51949 /* SettingsCell */ = {
+			isa = PBXGroup;
+			children = (
+				2CCD5A702585002600B51949 /* SettingsCell.swift */,
+				2CCD5A712585002600B51949 /* SettingsCell.xib */,
+			);
+			path = SettingsCell;
+			sourceTree = "<group>";
+		};
+		2CD3F2D12583CAE800E413B9 /* SentSuccessfully */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C2325DDA88A00A9AB3C /* SentSuccessfully.storyboard */,
+				2CD3F2D52583CB2200E413B9 /* SentSuccessfullyVC.swift */,
+			);
+			path = SentSuccessfully;
+			sourceTree = "<group>";
+		};
+		2CD634B125AB9C6100E4C75F /* TeacherNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA65B25DEAD7800833297 /* TeacherNotifications.storyboard */,
+				2CD634B625AB9CF200E4C75F /* TeacherNotificationsVC.swift */,
+				2CD634B925AB9D1D00E4C75F /* TeacherNotificationsVC+TableView.swift */,
+				2CA9B1D225D5D23A00AD2139 /* Networking */,
+			);
+			path = TeacherNotifications;
+			sourceTree = "<group>";
+		};
+		2CD634C925ABA45200E4C75F /* TeacherProfile */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA66225DEADA700833297 /* TeacherProfile.storyboard */,
+				2CD634CD25ABA47B00E4C75F /* TeacherProfileVC.swift */,
+			);
+			path = TeacherProfile;
+			sourceTree = "<group>";
+		};
+		2CD634D025ABAC3F00E4C75F /* TeacherSettings */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA66925DEADD200833297 /* TeacherSettings.storyboard */,
+				2CD634D525ABAD2E00E4C75F /* TeacherSettingsVC.swift */,
+				2CD634D825ABAD4600E4C75F /* TeacherSettings.json */,
+				2CD634DB25ABAD5E00E4C75F /* TeacherSettingsResponseModel.swift */,
+				2CD634DF25ABADBD00E4C75F /* TeacherSettingsVC+TableView.swift */,
+			);
+			path = TeacherSettings;
+			sourceTree = "<group>";
+		};
+		2CD634E225ABB06D00E4C75F /* TeacherEditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA66F25DEAE4600833297 /* TeacherEditProfile.storyboard */,
+				2CD634E625ABB0A800E4C75F /* TeacherEditProfileVC.swift */,
+				2CE81F0C25D83D92002CDEA9 /* Networking */,
+			);
+			path = TeacherEditProfile;
+			sourceTree = "<group>";
+		};
+		2CD634E925ABB2E900E4C75F /* TeacherChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA67625DEAE7200833297 /* TeacherChangePassword.storyboard */,
+				2CD634ED25ABB36600E4C75F /* TeacherChangePasswordVC.swift */,
+				2C6302D625D85D560077402E /* Networking */,
+			);
+			path = TeacherChangePassword;
+			sourceTree = "<group>";
+		};
+		2CDE338C257E783100020462 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C0225DDA3DC00A9AB3C /* Login.storyboard */,
+				2CDE3390257E785500020462 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2CDE3397257E834900020462 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C0825DDA4FE00A9AB3C /* Registration.storyboard */,
+				2CDE339B257E83CE00020462 /* RegistrationVC.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		2CE102D625CF347600AEF788 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2CE102D925CF3C5900AEF788 /* Responses */,
+				2CE102DF25CF3C9100AEF788 /* StudentGroupDetailsRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2CE102D925CF3C5900AEF788 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2CE102E225CF3CAE00AEF788 /* GroupDetailsResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2CE33F02257A8440007DCE36 = {
+			isa = PBXGroup;
+			children = (
+				2CE33F0D257A8440007DCE36 /* gather-in */,
+				2CE33F0C257A8440007DCE36 /* Products */,
+				DCFB9FA1D38405407665D7BF /* Pods */,
+				D79637B8C37B0B4A29ABA06E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE33F0C257A8440007DCE36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE33F0B257A8440007DCE36 /* gather-in.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE33F0D257A8440007DCE36 /* gather-in */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A018F265FE2370052672E /* Models */,
+				FA8A0182265F02A20052672E /* Helper */,
+				AEE0AC322613C6D6000473CE /* gather-in.entitlements */,
+				2CE33F56257A84DA007DCE36 /* Core */,
+				2CE33F57257A84E2007DCE36 /* Configuration */,
+				2CE33F5B257A8575007DCE36 /* Resources */,
+				2CE33F58257A8502007DCE36 /* Extenstions */,
+				2CE33F59257A853C007DCE36 /* SupoortingFiels */,
+				2CE33F5A257A8558007DCE36 /* Externals */,
+				2CE33F5C257A858B007DCE36 /* Scenes */,
+			);
+			path = "gather-in";
+			sourceTree = "<group>";
+		};
+		2CE33F56257A84DA007DCE36 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2CE33F0E257A8440007DCE36 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2CE33F57257A84E2007DCE36 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2CE33F1C257A8442007DCE36 /* Info.plist */,
+				AEE0ABE12613B3CA000473CE /* GoogleService-Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2CE33F58257A8502007DCE36 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				2CE33F5E257A85F6007DCE36 /* UIView.swift */,
+				2CE33F61257A8658007DCE36 /* UITableView.swift */,
+				2CE33F64257A866C007DCE36 /* UICollectionView.swift */,
+				2CDE3393257E806600020462 /* UIColor.swift */,
+				2C0EAD0025B09CA20061C16C /* String.swift */,
+				AE01575A2602B13F00FD3452 /* Application+Etentions.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		2CE33F59257A853C007DCE36 /* SupoortingFiels */ = {
+			isa = PBXGroup;
+			children = (
+				2C9B697125DEF7C800C6AAD5 /* Localization */,
+				2CE33F70257A883F007DCE36 /* BaseClasses */,
+				2CE33F6D257A87D5007DCE36 /* Reachability.swift */,
+				AEEBEE32258FD9BE009C5627 /* ExtentionForUIView.swift */,
+			);
+			path = SupoortingFiels;
+			sourceTree = "<group>";
+		};
+		2CE33F5A257A8558007DCE36 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				2C449E6525B0745B00517059 /* Network */,
+				2CE33F80257A88B5007DCE36 /* UserDefaults */,
+				2CE33F77257A8878007DCE36 /* Navigation */,
+				AE01575D2602B1F600FD3452 /* ModelForSocket */,
+				AE8F588825FA5D8F00C0FB49 /* SocketHelper.swift */,
+				AE91CA7B260A913700D7FD61 /* SocketManager.swift */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		2CE33F5B257A8575007DCE36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CE33F17257A8442007DCE36 /* Assets.xcassets */,
+				2CE33F19257A8442007DCE36 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CE33F5C257A858B007DCE36 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2C72E3BB257E6600004F8436 /* Common */,
+				2C72E3BD257E6630004F8436 /* Teacher */,
+				2C72E3BC257E6626004F8436 /* Student */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2CE33F70257A883F007DCE36 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2CE33F71257A8851007DCE36 /* BaseViewController.swift */,
+				2CE33F74257A886E007DCE36 /* BaseResponseModel.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		2CE33F77257A8878007DCE36 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2CE33F79257A889B007DCE36 /* Storyboards.swift */,
+				2CE33F7D257A88A7007DCE36 /* Navigator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		2CE33F80257A88B5007DCE36 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				2CE33F81257A88CC007DCE36 /* UserDefaultsKeys.swift */,
+				2CE33F85257A88E1007DCE36 /* UserDefaultsProtocols.swift */,
+				2CE33F88257A88FD007DCE36 /* UserDefaultsManager.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		2CE81F0C25D83D92002CDEA9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2CE81F0E25D83DC9002CDEA9 /* TeacherEditProfileRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2CEEACEB25A9D4D5005901EE /* SendQuestions */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA63925DEAB3100833297 /* SendQuestions.storyboard */,
+				2CEEACF425A9E981005901EE /* SendQuestionVC.swift */,
+				2CEEACF825A9EE9E005901EE /* SendQuestionVC+TableView.swift */,
+				2C37573A25D572170078E41F /* Networking */,
+			);
+			path = SendQuestions;
+			sourceTree = "<group>";
+		};
+		2CEEACFC25A9F7AE005901EE /* SelectGroupCell */ = {
+			isa = PBXGroup;
+			children = (
+				2CEEACEF25A9D963005901EE /* SelectGroupCell.swift */,
+				2CEEACF025A9D963005901EE /* SelectGroupCell.xib */,
+			);
+			path = SelectGroupCell;
+			sourceTree = "<group>";
+		};
+		2CEEACFD25A9F880005901EE /* NotificationsAndReports */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA63F25DEAC7100833297 /* NotificationsAndReports.storyboard */,
+				2CEEAD0125A9F8BC005901EE /* NotificationsAndReportsVC.swift */,
+				2CEEAD0425A9FA39005901EE /* NotificationsAndReportsVC+TableView.swift */,
+				2C7DC62425D6D8F40008CE52 /* Networking */,
+			);
+			path = NotificationsAndReports;
+			sourceTree = "<group>";
+		};
+		2CEEAD0825A9FB92005901EE /* NotificationAndReportMessage */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA64625DEAC9D00833297 /* NotificationAndReportMessage.storyboard */,
+				2CEEAD0C25A9FBCB005901EE /* NotificationAndReportMessageVC.swift */,
+				2C7DC62A25D6E89B0008CE52 /* Networking */,
+			);
+			path = NotificationAndReportMessage;
+			sourceTree = "<group>";
+		};
+		2CEEAD0F25AA204B005901EE /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				AE91CC9A261116A700D7FD61 /* NetworkingForChatIDTeacher */,
+				2C8AA64C25DEAD0100833297 /* Communication.storyboard */,
+				2CEEAD1325AA2086005901EE /* CommunicationVC.swift */,
+				2CEEAD1A25AA221C005901EE /* CommunicationCell.swift */,
+				2CEEAD1B25AA221C005901EE /* CommunicationCell.xib */,
+				2CEEAD1F25AA257D005901EE /* CommunicationVC+TableView.swift */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		2CEEAD2325AA308B005901EE /* CommunicationDetails */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA65325DEAD4900833297 /* CommunicationDetails.storyboard */,
+				2CEEAD2725AA325B005901EE /* CommunicationDetailsVC.swift */,
+				2CEEAD2A25AA3276005901EE /* CommunicationDetailsCell.swift */,
+				2CEEAD2B25AA3276005901EE /* CommunicationDetailsCell.xib */,
+				2CEEAD2F25AA341B005901EE /* CommunicationDetailsVC+TableView.swift */,
+			);
+			path = CommunicationDetails;
+			sourceTree = "<group>";
+		};
+		2CF730A625D09B15002AA9FB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2CF730AF25D0A8FC002AA9FB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2CF730B025D0A908002AA9FB /* Responses */,
+				2CF730B425D0A94A002AA9FB /* StudentProfileRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2CF730B025D0A908002AA9FB /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2CF730B125D0A926002AA9FB /* UpdateProfileResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2CF730B725D0C0CE002AA9FB /* LeaderChats */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AA6B125DEC2B300833297 /* LeaderChats.storyboard */,
+				2C40E91B25DAC5B500A7A5A3 /* LeaderChatsVC.swift */,
+				2C40E91E25DAC7DF00A7A5A3 /* LeaderChatsCell.swift */,
+				2C40E91F25DAC7DF00A7A5A3 /* LeaderChatsCell.xib */,
+				2C40E92325DAC7F400A7A5A3 /* LeaderChatsVC+TableView.swift */,
+			);
+			path = LeaderChats;
+			sourceTree = "<group>";
+		};
+		AE01575D2602B1F600FD3452 /* ModelForSocket */ = {
+			isa = PBXGroup;
+			children = (
+				AE01575E2602B22200FD3452 /* UserModel.swift */,
+				AE0157612602B24C00FD3452 /* MessageModel.swift */,
+			);
+			path = ModelForSocket;
+			sourceTree = "<group>";
+		};
+		AE3D2EAD2591178000A0364B /* Plans */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C3E25DDAC4600A9AB3C /* Plans.storyboard */,
+				AE3D2EB82591209D00A0364B /* PlansVC.swift */,
+				AE3D2EBE259121D700A0364B /* PlansVC+TableView.swift */,
+				2C2A951325A7544B00F5E613 /* PlansCell.swift */,
+				2C2A951425A7544B00F5E613 /* PlansCell.xib */,
+				2C02D52225B1C61C0031F742 /* Networking */,
+			);
+			path = Plans;
+			sourceTree = "<group>";
+		};
+		AE3D2EC32591249C00A0364B /* DepatmentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C4525DDADCB00A9AB3C /* TeacherDepartmentDetails.storyboard */,
+				AE3D2EC7259126B700A0364B /* TeacherDepartmentDetailsVC.swift */,
+				2CEE710825A76442007464B7 /* TeacherGroupCell.swift */,
+				2CEE710925A76442007464B7 /* TeacherGroupCell.xib */,
+			);
+			path = DepatmentDetails;
+			sourceTree = "<group>";
+		};
+		AE8F586D25F7FE8D00C0FB49 /* NetworkForUpdatePlans */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F586F25F7FEBC00C0FB49 /* UpdatePlansRequest.swift */,
+			);
+			path = NetworkForUpdatePlans;
+			sourceTree = "<group>";
+		};
+		AE91CC9A261116A700D7FD61 /* NetworkingForChatIDTeacher */ = {
+			isa = PBXGroup;
+			children = (
+				AE91CC9B2611172900D7FD61 /* ChatIDTeacher&Leader.swift */,
+				AE91CC9F2611187900D7FD61 /* ChatIDModel.swift */,
+			);
+			path = NetworkingForChatIDTeacher;
+			sourceTree = "<group>";
+		};
+		AEEBEE2B258F7B82009C5627 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17C3725DDA95600A9AB3C /* TeacherHome.storyboard */,
+				AEEBEE2F258F7BD3009C5627 /* TeacherHomeVC.swift */,
+				2C2A950A25A74F0F00F5E613 /* TeacherDepartmentCell.swift */,
+				2C2A950B25A74F0F00F5E613 /* TeacherDepartmentCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D79637B8C37B0B4A29ABA06E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6439C828F6A06ABDEE88206 /* Pods_gather_in.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCFB9FA1D38405407665D7BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69C05829475B8DABA2A0C720 /* Pods-gather-in.debug.xcconfig */,
+				0C28BF918A7D6857FCE6DB62 /* Pods-gather-in.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA8A017A265F02540052672E /* Networkings */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A017C265F027D0052672E /* ApiNames.swift */,
+				FA8A017B265F027C0052672E /* Config.swift */,
+				FA8A017D265F027E0052672E /* NetworkingHelper.swift */,
+			);
+			path = Networkings;
+			sourceTree = "<group>";
+		};
+		FA8A0182265F02A20052672E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FA958D302669A81E00E3BF59 /* AttachmentHandler.swift */,
+				FA8A0183265F04060052672E /* Localization */,
+				FA8A017A265F02540052672E /* Networkings */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FA8A0183265F04060052672E /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A0199266072900052672E /* Localizable.strings */,
+				FA8A0185265F04250052672E /* L012Localizer.swift */,
+				FA8A0184265F04240052672E /* L102Language.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		FA8A018F265FE2370052672E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAA15B4026702130007B0835 /* NotificatioRespons.swift */,
+				FA958D37266C258100E3BF59 /* DepartmentRespons.swift */,
+				2C0EAD0A25B0AEB00061C16C /* RegisterResponse.swift */,
+				FA8A020826629A7F0052672E /* GlobalErrorRespons.swift */,
+				FA8A018C265FE2220052672E /* User.swift */,
+				FA8A0191265FE27C0052672E /* sharedPref.swift */,
+				FA8A020B26629AE60052672E /* ValidateCodeRespons.swift */,
+				FAC550B12667053E000DA7EE /* ProfileModel.swift */,
+				FA8A0189265F05750052672E /* CommonMethods.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE33F0A257A8440007DCE36 /* gather-in */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE33F1F257A8442007DCE36 /* Build configuration list for PBXNativeTarget "gather-in" */;
+			buildPhases = (
+				0E13B114DC549324CACDD273 /* [CP] Check Pods Manifest.lock */,
+				2CE33F07257A8440007DCE36 /* Sources */,
+				2CE33F08257A8440007DCE36 /* Frameworks */,
+				2CE33F09257A8440007DCE36 /* Resources */,
+				547405FBB5EDD1936DABF982 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gather-in";
+			productName = "gather-in";
+			productReference = 2CE33F0B257A8440007DCE36 /* gather-in.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CE33F03257A8440007DCE36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					2CE33F0A257A8440007DCE36 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 2CE33F06257A8440007DCE36 /* Build configuration list for PBXProject "gather-in" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 2CE33F02257A8440007DCE36;
+			productRefGroup = 2CE33F0C257A8440007DCE36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CE33F0A257A8440007DCE36 /* gather-in */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE33F09257A8440007DCE36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA17C0625DDA4FE00A9AB3C /* Registration.storyboard in Resources */,
+				2CA17C0025DDA3DC00A9AB3C /* Login.storyboard in Resources */,
+				2CA17C0D25DDA5F700A9AB3C /* AlreadyRegisteredAlert.storyboard in Resources */,
+				2CA17C4A25DDAE7700A9AB3C /* CreateDepartment.storyboard in Resources */,
+				2CA17C2725DDA8AE00A9AB3C /* ForgotPassword.storyboard in Resources */,
+				2C9726862582B6CD00C16333 /* MemberCollectionCell.xib in Resources */,
+				2C8AA63D25DEAC7100833297 /* NotificationsAndReports.storyboard in Resources */,
+				2C4E4A0725CEE12B0084EE98 /* DepartmentGroups.storyboard in Resources */,
+				2C8AA63725DEAB3100833297 /* SendQuestions.storyboard in Resources */,
+				2CA17C4325DDADCB00A9AB3C /* TeacherDepartmentDetails.storyboard in Resources */,
+				2C8AA64A25DEAD0100833297 /* Communication.storyboard in Resources */,
+				2C8AA6A125DEC07F00833297 /* StudentNotifications.storyboard in Resources */,
+				2C8AA64425DEAC9D00833297 /* NotificationAndReportMessage.storyboard in Resources */,
+				2C8AA6AF25DEC2B300833297 /* LeaderChats.storyboard in Resources */,
+				2CE33F1B257A8442007DCE36 /* LaunchScreen.storyboard in Resources */,
+				2CA17C2125DDA88A00A9AB3C /* SentSuccessfully.storyboard in Resources */,
+				FA8A0197266072900052672E /* Localizable.strings in Resources */,
+				2C8AA66025DEADA700833297 /* TeacherProfile.storyboard in Resources */,
+				2C8AA61A25DEA8FD00833297 /* SelectLeader.storyboard in Resources */,
+				2C2A950D25A74F0F00F5E613 /* TeacherDepartmentCell.xib in Resources */,
+				2C8AA67425DEAE7200833297 /* TeacherChangePassword.storyboard in Resources */,
+				2C8AA66725DEADD200833297 /* TeacherSettings.storyboard in Resources */,
+				2CA17C5125DDAFA600A9AB3C /* EditDepartment.storyboard in Resources */,
+				2C8AA65925DEAD7800833297 /* TeacherNotifications.storyboard in Resources */,
+				2C5779EE2584182E00501542 /* BasicNotificationCell.xib in Resources */,
+				2C8AA60625DEA82B00833297 /* TeacherChat.storyboard in Resources */,
+				2C8AA6B525DEC2E100833297 /* StudentProfile.storyboard in Resources */,
+				2C8AA61325DEA8A900833297 /* EditGroup.storyboard in Resources */,
+				AEE0ABE22613B3CA000473CE /* GoogleService-Info.plist in Resources */,
+				2C2A951625A7544B00F5E613 /* PlansCell.xib in Resources */,
+				2CEEAD2D25AA3276005901EE /* CommunicationDetailsCell.xib in Resources */,
+				2C8AA6CA25DEE69F00833297 /* StudentChangePassword.storyboard in Resources */,
+				2C8AA65125DEAD4900833297 /* CommunicationDetails.storyboard in Resources */,
+				2CEE710B25A76442007464B7 /* TeacherGroupCell.xib in Resources */,
+				2C8AA66D25DEAE4600833297 /* TeacherEditProfile.storyboard in Resources */,
+				2CEEACF225A9D963005901EE /* SelectGroupCell.xib in Resources */,
+				2CD634D925ABAD4600E4C75F /* TeacherSettings.json in Resources */,
+				2CE33F18257A8442007DCE36 /* Assets.xcassets in Resources */,
+				2C8AA69B25DEC00500833297 /* SendAnswer.storyboard in Resources */,
+				2C8AA60C25DEA85700833297 /* CreateGroup.storyboard in Resources */,
+				2C8AA67B25DEAF4F00833297 /* StudentHome.storyboard in Resources */,
+				2CA17C1A25DDA86600A9AB3C /* AboutUs.storyboard in Resources */,
+				2CA17C3525DDA95600A9AB3C /* TeacherHome.storyboard in Resources */,
+				2C520F632582C071004EAEED /* ChatCell.xib in Resources */,
+				2C8AA6BE25DED2EB00833297 /* ChangePassword.storyboard in Resources */,
+				2CA17C1325DDA73D00A9AB3C /* Verfication.storyboard in Resources */,
+				2C7864C925A8CB2000BF6CC6 /* SelectLeaderCell.xib in Resources */,
+				2CCD5A732585002600B51949 /* SettingsCell.xib in Resources */,
+				2CCD5A76258500E200B51949 /* StudentSettings.json in Resources */,
+				2C8AA62225DEAA3200833297 /* GroupResults.storyboard in Resources */,
+				2C1841FE25A79F0300FC3437 /* MainTabBar.storyboard in Resources */,
+				2CEEAD1D25AA221C005901EE /* CommunicationCell.xib in Resources */,
+				2C8AA68825DEBAC300833297 /* JoinDepartmentAlert.storyboard in Resources */,
+				2C8AA69425DEBF9800833297 /* StudentsChat.storyboard in Resources */,
+				2CA17C3C25DDAC4600A9AB3C /* Plans.storyboard in Resources */,
+				2CA17BFA25DDA2B900A9AB3C /* TypeSelection.storyboard in Resources */,
+				2CA17C5725DDAFFF00A9AB3C /* GroupDetails.storyboard in Resources */,
+				2C8AA6A825DEC0A300833297 /* StudentSettings.storyboard in Resources */,
+				2C4E4A1025CEE1A00084EE98 /* DepartmentGroupsCell.xib in Resources */,
+				2C7C69C825A8EF70002EB4DF /* GroupResultsCell.xib in Resources */,
+				2C40E92125DAC7DF00A7A5A3 /* LeaderChatsCell.xib in Resources */,
+				2C8AA63025DEAB0D00833297 /* ResultDetailsCell.xib in Resources */,
+				2CA17C2E25DDA91900A9AB3C /* GroupMemberTableCell.xib in Resources */,
+				2C8AA62925DEAA8F00833297 /* ResultDetails.storyboard in Resources */,
+				2C7DC60625D6B7A40008CE52 /* SelectMemberCell.xib in Resources */,
+				2C8AA68E25DEBE9100833297 /* StudentGroupDetails.storyboard in Resources */,
+				2C8AA68225DEBA3B00833297 /* StudentDepartmentCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E13B114DC549324CACDD273 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gather-in-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		547405FBB5EDD1936DABF982 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gather-in/Pods-gather-in-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gather-in/Pods-gather-in-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gather-in/Pods-gather-in-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE33F07257A8440007DCE36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEEAD0225A9F8BC005901EE /* NotificationsAndReportsVC.swift in Sources */,
+				2C18420925A7B62800FC3437 /* GroupDetailsVC.swift in Sources */,
+				AE3D2EBF259121D700A0364B /* PlansVC+TableView.swift in Sources */,
+				2CE33F5F257A85F6007DCE36 /* UIView.swift in Sources */,
+				2C7864C425A8CAD500BF6CC6 /* SelectLeaderVC.swift in Sources */,
+				2C520F152582BB8D004EAEED /* StudentsChatVC.swift in Sources */,
+				2C02794125D2E207000EB689 /* EditDepartmentRequest.swift in Sources */,
+				FA8A020926629A7F0052672E /* GlobalErrorRespons.swift in Sources */,
+				FAA15C4A2676AEEE007B0835 /* SelectLeaderVC+TableView.swift in Sources */,
+				2CA9B1D525D5D2B100AD2139 /* TeacherNotificationsResponse.swift in Sources */,
+				2C1841FA25A79EEE00FC3437 /* MainTabBarVC.swift in Sources */,
+				FA958D38266C258100E3BF59 /* DepartmentRespons.swift in Sources */,
+				2CF730B225D0A926002AA9FB /* UpdateProfileResponse.swift in Sources */,
+				2CEEAD1425AA2086005901EE /* CommunicationVC.swift in Sources */,
+				2CD634DC25ABAD5E00E4C75F /* TeacherSettingsResponseModel.swift in Sources */,
+				2C6302ED25D889130077402E /* ForgotPasswordVC.swift in Sources */,
+				2CCA7FAE25801B3000A6866D /* StudentDepartmentCell.swift in Sources */,
+				2C37574125D573280078E41F /* SendQuestionRequest.swift in Sources */,
+				2CEEAD0D25A9FBCB005901EE /* NotificationAndReportMessageVC.swift in Sources */,
+				2CE102E325CF3CAE00AEF788 /* GroupDetailsResponse.swift in Sources */,
+				AE0157622602B24C00FD3452 /* MessageModel.swift in Sources */,
+				2CE33F7E257A88A7007DCE36 /* Navigator.swift in Sources */,
+				AE91CC9C2611172900D7FD61 /* ChatIDTeacher&Leader.swift in Sources */,
+				2C875D1A25A892E40007C492 /* CreateGroupVC.swift in Sources */,
+				2C7DC62725D6D92F0008CE52 /* NotificationsAndReportsRequest.swift in Sources */,
+				2C7DC60525D6B7A40008CE52 /* SelectMemberCell.swift in Sources */,
+				2CCD5A722585002600B51949 /* SettingsCell.swift in Sources */,
+				FA8A0187265F04250052672E /* L012Localizer.swift in Sources */,
+				2CCA7FBD258039AE00A6866D /* JoinDepartmentAlertVC.swift in Sources */,
+				2C7DC61B25D6D0070008CE52 /* EditGroupRequest.swift in Sources */,
+				2CCD5A662584FB2300B51949 /* StudentProfileVC.swift in Sources */,
+				2C8C674725D42FDC00635C06 /* GroupResultsResponse.swift in Sources */,
+				2C7C69DC25A9082A002EB4DF /* ResultDetailsVC+TableView.swift in Sources */,
+				2C4E4A1925CEE7E30084EE98 /* DepartmentGroupsRequest.swift in Sources */,
+				FA8A018D265FE2220052672E /* User.swift in Sources */,
+				FA8A0192265FE27D0052672E /* sharedPref.swift in Sources */,
+				2CD634B725AB9CF200E4C75F /* TeacherNotificationsVC.swift in Sources */,
+				2C7DC60E25D6BFF30008CE52 /* GetDepartmentMembersResponse.swift in Sources */,
+				2C7DC62125D6D2240008CE52 /* GroupMembersResponseModel.swift in Sources */,
+				2CEEACF525A9E981005901EE /* SendQuestionVC.swift in Sources */,
+				2CEEAD3025AA341B005901EE /* CommunicationDetailsVC+TableView.swift in Sources */,
+				FA8A018A265F05750052672E /* CommonMethods.swift in Sources */,
+				AE8F587025F7FEBC00C0FB49 /* UpdatePlansRequest.swift in Sources */,
+				2CD634BA25AB9D1D00E4C75F /* TeacherNotificationsVC+TableView.swift in Sources */,
+				FA8A0186265F04250052672E /* L102Language.swift in Sources */,
+				2C7C69D425A902D5002EB4DF /* ResultDetailsCell.swift in Sources */,
+				FA958D312669A81E00E3BF59 /* AttachmentHandler.swift in Sources */,
+				2C8AA6CD25DEE70A00833297 /* StudentChangePasswordVC.swift in Sources */,
+				2C7C69CB25A8F13F002EB4DF /* GroupResultsVC+TableView.swift in Sources */,
+				2C8C674025D40FA200635C06 /* GetGroupMembersResponse.swift in Sources */,
+				AE01575B2602B13F00FD3452 /* Application+Etentions.swift in Sources */,
+				AE91CA7C260A913700D7FD61 /* SocketManager.swift in Sources */,
+				2C2A951525A7544B00F5E613 /* PlansCell.swift in Sources */,
+				FA8A017F265F027E0052672E /* ApiNames.swift in Sources */,
+				2CEEACF925A9EE9E005901EE /* SendQuestionVC+TableView.swift in Sources */,
+				2CE33F86257A88E1007DCE36 /* UserDefaultsProtocols.swift in Sources */,
+				2C9726852582B6CD00C16333 /* MemberCollectionCell.swift in Sources */,
+				2CEE710A25A76442007464B7 /* TeacherGroupCell.swift in Sources */,
+				2C7DC62C25D6E8BC0008CE52 /* NotificatioinsAndReportMessageRequest.swift in Sources */,
+				FAC550B22667053E000DA7EE /* ProfileModel.swift in Sources */,
+				2C02793D25D2D258000EB689 /* CreateDepartmentResponse.swift in Sources */,
+				2C02D52525B1C6EC0031F742 /* GetPlansResponse.swift in Sources */,
+				2C37573D25D572B10078E41F /* TeacherGroupsResponse.swift in Sources */,
+				2C7C69C325A8EDFB002EB4DF /* GroupResultsVC.swift in Sources */,
+				2CEEAD1C25AA221C005901EE /* CommunicationCell.swift in Sources */,
+				2CDE339C257E83CE00020462 /* RegistrationVC.swift in Sources */,
+				2CD634E725ABB0A800E4C75F /* TeacherEditProfileVC.swift in Sources */,
+				2C408A9325CDF699007C2BFE /* StudentDepartmentsResponse.swift in Sources */,
+				AEEBEE33258FD9BE009C5627 /* ExtentionForUIView.swift in Sources */,
+				2C8AA6C125DED40000833297 /* ChangePasswordVC.swift in Sources */,
+				2CE33F89257A88FD007DCE36 /* UserDefaultsManager.swift in Sources */,
+				AE3D2EC8259126B700A0364B /* TeacherDepartmentDetailsVC.swift in Sources */,
+				2C7864B825A8C5CB00BF6CC6 /* EditGroupVC.swift in Sources */,
+				2CEEAD2825AA325B005901EE /* CommunicationDetailsVC.swift in Sources */,
+				2C0EAD0125B09CA20061C16C /* String.swift in Sources */,
+				2C8AA6D125DEE77300833297 /* StudentChangePasswordRequest.swift in Sources */,
+				2C4E4A1425CEE7090084EE98 /* DepartmentGroupsResponse.swift in Sources */,
+				2CA9B1DA25D5D30400AD2139 /* TeacherNotficationRequest.swift in Sources */,
+				2C40E92025DAC7DF00A7A5A3 /* LeaderChatsCell.swift in Sources */,
+				2C0B794C25810F31004950C1 /* StudentGroupDetailsVC.swift in Sources */,
+				AE8F588925FA5D9000C0FB49 /* SocketHelper.swift in Sources */,
+				2C0EAD0B25B0AEB00061C16C /* RegisterResponse.swift in Sources */,
+				2C2A950C25A74F0F00F5E613 /* TeacherDepartmentCell.swift in Sources */,
+				2CE81F0F25D83DC9002CDEA9 /* TeacherEditProfileRequest.swift in Sources */,
+				2C7C69C725A8EF70002EB4DF /* GroupResultsCell.swift in Sources */,
+				2CE102E025CF3C9100AEF788 /* StudentGroupDetailsRequest.swift in Sources */,
+				2C4CCC8D2583C2B40073C20D /* SendAnswerVC.swift in Sources */,
+				2C449E7125B0776400517059 /* CodableInit.swift in Sources */,
+				2CD3F2D62583CB2200E413B9 /* SentSuccessfullyVC.swift in Sources */,
+				2C449E8925B0958800517059 /* UserTypes.swift in Sources */,
+				2C7864C825A8CB2000BF6CC6 /* SelectLeaderCell.swift in Sources */,
+				2CE33F0F257A8440007DCE36 /* AppDelegate.swift in Sources */,
+				2C4E4A0F25CEE1A00084EE98 /* DepartmentGroupsCell.swift in Sources */,
+				2C7C69D825A90635002EB4DF /* ResultDetailsVC.swift in Sources */,
+				FA8A0180265F027E0052672E /* NetworkingHelper.swift in Sources */,
+				2C0B7952258115D4004950C1 /* GroupMemberTableCell.swift in Sources */,
+				2CD634CE25ABA47B00E4C75F /* TeacherProfileVC.swift in Sources */,
+				FAA15B4126702130007B0835 /* NotificatioRespons.swift in Sources */,
+				2C7DC61725D6CDA20008CE52 /* EditGroupVC+TableView.swift in Sources */,
+				2CEEAD2C25AA3276005901EE /* CommunicationDetailsCell.swift in Sources */,
+				2CE33F6E257A87D5007DCE36 /* Reachability.swift in Sources */,
+				2CF730B525D0A94A002AA9FB /* StudentProfileRequest.swift in Sources */,
+				2C72E3C3257E711D004F8436 /* TypeSelectionVC.swift in Sources */,
+				2CEEAD0525A9FA39005901EE /* NotificationsAndReportsVC+TableView.swift in Sources */,
+				2CDE3394257E806600020462 /* UIColor.swift in Sources */,
+				2CEEACF125A9D963005901EE /* SelectGroupCell.swift in Sources */,
+				AEEBEE30258F7BD3009C5627 /* TeacherHomeVC.swift in Sources */,
+				2C449E6B25B0760E00517059 /* APIRequestHandler.swift in Sources */,
+				2CE33F65257A866C007DCE36 /* UICollectionView.swift in Sources */,
+				2CD634EE25ABB36600E4C75F /* TeacherChangePasswordVC.swift in Sources */,
+				2CEEAD2025AA257D005901EE /* CommunicationVC+TableView.swift in Sources */,
+				2C5779ED2584182E00501542 /* BasicNotificationCell.swift in Sources */,
+				AE3D2EDF259143F000A0364B /* EditDepartmentVC.swift in Sources */,
+				2CAFCD53257FB67C00586FAF /* AlreadyRegisteredAlertVC.swift in Sources */,
+				2CE33F82257A88CC007DCE36 /* UserDefaultsKeys.swift in Sources */,
+				2C408A8F25CDF55B007C2BFE /* StudentHomeRequests.swift in Sources */,
+				AE01575F2602B22200FD3452 /* UserModel.swift in Sources */,
+				2C4E4A0A25CEE1680084EE98 /* DepartmentGroupsVC.swift in Sources */,
+				2C7DC61225D6C0400008CE52 /* CreateGroupRequest.swift in Sources */,
+				AE91CCA02611187900D7FD61 /* ChatIDModel.swift in Sources */,
+				2C18421A25A7BD6A00FC3437 /* TeacherChatVC+CollectionView.swift in Sources */,
+				2C02D52A25B1C7F90031F742 /* PlansRequest.swift in Sources */,
+				2CAFCD5C257FB93500586FAF /* VerficationVC.swift in Sources */,
+				2CCA7FB42580328B00A6866D /* StudentHomeVC.swift in Sources */,
+				2CE33F62257A8658007DCE36 /* UITableView.swift in Sources */,
+				2C8C674B25D4300D00635C06 /* GroupResultsRequest.swift in Sources */,
+				2CE33F75257A886E007DCE36 /* BaseResponseModel.swift in Sources */,
+				2C40E91C25DAC5B500A7A5A3 /* LeaderChatsVC.swift in Sources */,
+				2C40E92425DAC7F400A7A5A3 /* LeaderChatsVC+TableView.swift in Sources */,
+				FA8A020C26629AE60052672E /* ValidateCodeRespons.swift in Sources */,
+				2C449E6E25B0762900517059 /* ResponseHandler.swift in Sources */,
+				2C520F622582C071004EAEED /* ChatCell.swift in Sources */,
+				2C5779E72584170D00501542 /* StudentNotificationsVC.swift in Sources */,
+				2CE33F7A257A889B007DCE36 /* Storyboards.swift in Sources */,
+				2C6302D825D85DA80077402E /* TeacherChangePasswordRequest.swift in Sources */,
+				2CDE3391257E785500020462 /* LoginVC.swift in Sources */,
+				2CCD5A852585025800B51949 /* StudentSettingsResponseModel.swift in Sources */,
+				2C449E6725B0748A00517059 /* URLRequestBuilder.swift in Sources */,
+				2C18421425A7BC1900FC3437 /* TeacherChatVC.swift in Sources */,
+				2CD634D625ABAD2E00E4C75F /* TeacherSettingsVC.swift in Sources */,
+				2CE33F72257A8851007DCE36 /* BaseViewController.swift in Sources */,
+				AE3D2EDC25913C0800A0364B /* CreateDepartmentVC.swift in Sources */,
+				2C8C673C25D40F6F00635C06 /* SelectLeaderRequests.swift in Sources */,
+				2C18421725A7BCC600FC3437 /* TeacherChatVC+TableView.swift in Sources */,
+				AE3D2EB92591209D00A0364B /* PlansVC.swift in Sources */,
+				2CE33F6B257A86D6007DCE36 /* LocalizationExtension.swift in Sources */,
+				2C9C1D7F258662DD00924EF4 /* AboutUsVC.swift in Sources */,
+				2C02793925D2CF94000EB689 /* CreateDepartmentRequest.swift in Sources */,
+				FA8A017E265F027E0052672E /* Config.swift in Sources */,
+				2CD634E025ABADBD00E4C75F /* TeacherSettingsVC+TableView.swift in Sources */,
+				2CCD5A6D2584FB7A00B51949 /* StudentSettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C8AA60825DEA82B00833297 /* TeacherChat.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA60725DEA82B00833297 /* Base */,
+				2C8AA60B25DEA83200833297 /* ar */,
+			);
+			name = TeacherChat.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA60E25DEA85700833297 /* CreateGroup.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA60D25DEA85700833297 /* Base */,
+				2C8AA61225DEA85A00833297 /* ar */,
+			);
+			name = CreateGroup.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA61525DEA8A900833297 /* EditGroup.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA61425DEA8A900833297 /* Base */,
+				2C8AA61825DEA8AB00833297 /* ar */,
+			);
+			name = EditGroup.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA61C25DEA8FD00833297 /* SelectLeader.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA61B25DEA8FD00833297 /* Base */,
+				2C8AA62025DEA90100833297 /* ar */,
+			);
+			name = SelectLeader.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA62425DEAA3200833297 /* GroupResults.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA62325DEAA3200833297 /* Base */,
+				2C8AA62725DEAA3400833297 /* ar */,
+			);
+			name = GroupResults.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA62B25DEAA8F00833297 /* ResultDetails.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA62A25DEAA8F00833297 /* Base */,
+				2C8AA62E25DEAAF000833297 /* ar */,
+			);
+			name = ResultDetails.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA63225DEAB0D00833297 /* ResultDetailsCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA63125DEAB0D00833297 /* Base */,
+				2C8AA63525DEAB1000833297 /* ar */,
+			);
+			name = ResultDetailsCell.xib;
+			sourceTree = "<group>";
+		};
+		2C8AA63925DEAB3100833297 /* SendQuestions.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA63825DEAB3100833297 /* Base */,
+				2C8AA63C25DEAB6B00833297 /* ar */,
+			);
+			name = SendQuestions.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA63F25DEAC7100833297 /* NotificationsAndReports.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA63E25DEAC7100833297 /* Base */,
+				2C8AA64225DEAC7400833297 /* ar */,
+			);
+			name = NotificationsAndReports.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA64625DEAC9D00833297 /* NotificationAndReportMessage.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA64525DEAC9D00833297 /* Base */,
+				2C8AA64925DEACA100833297 /* ar */,
+			);
+			name = NotificationAndReportMessage.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA64C25DEAD0100833297 /* Communication.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA64B25DEAD0100833297 /* Base */,
+				2C8AA64F25DEAD0600833297 /* ar */,
+			);
+			name = Communication.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA65325DEAD4900833297 /* CommunicationDetails.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA65225DEAD4900833297 /* Base */,
+				2C8AA65725DEAD4D00833297 /* ar */,
+			);
+			name = CommunicationDetails.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA65B25DEAD7800833297 /* TeacherNotifications.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA65A25DEAD7800833297 /* Base */,
+				2C8AA65E25DEAD7A00833297 /* ar */,
+			);
+			name = TeacherNotifications.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA66225DEADA700833297 /* TeacherProfile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA66125DEADA700833297 /* Base */,
+				2C8AA66525DEADAA00833297 /* ar */,
+			);
+			name = TeacherProfile.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA66925DEADD200833297 /* TeacherSettings.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA66825DEADD200833297 /* Base */,
+				2C8AA66C25DEADD700833297 /* ar */,
+			);
+			name = TeacherSettings.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA66F25DEAE4600833297 /* TeacherEditProfile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA66E25DEAE4600833297 /* Base */,
+				2C8AA67325DEAE4A00833297 /* ar */,
+			);
+			name = TeacherEditProfile.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA67625DEAE7200833297 /* TeacherChangePassword.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA67525DEAE7200833297 /* Base */,
+				2C8AA67925DEAE7500833297 /* ar */,
+			);
+			name = TeacherChangePassword.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA67D25DEAF4F00833297 /* StudentHome.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA67C25DEAF4F00833297 /* Base */,
+				2C8AA68025DEAF5400833297 /* ar */,
+			);
+			name = StudentHome.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA68425DEBA3B00833297 /* StudentDepartmentCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA68325DEBA3B00833297 /* Base */,
+				2C8AA68725DEBA5000833297 /* ar */,
+			);
+			name = StudentDepartmentCell.xib;
+			sourceTree = "<group>";
+		};
+		2C8AA68A25DEBAC300833297 /* JoinDepartmentAlert.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA68925DEBAC300833297 /* Base */,
+				2C8AA68D25DEBACA00833297 /* ar */,
+			);
+			name = JoinDepartmentAlert.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA69025DEBE9100833297 /* StudentGroupDetails.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA68F25DEBE9100833297 /* Base */,
+				2C8AA69325DEBE9F00833297 /* ar */,
+			);
+			name = StudentGroupDetails.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA69625DEBF9800833297 /* StudentsChat.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA69525DEBF9800833297 /* Base */,
+				2C8AA69925DEBF9B00833297 /* ar */,
+			);
+			name = StudentsChat.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA69D25DEC00500833297 /* SendAnswer.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA69C25DEC00500833297 /* Base */,
+				2C8AA6A025DEC00A00833297 /* ar */,
+			);
+			name = SendAnswer.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA6A325DEC07F00833297 /* StudentNotifications.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA6A225DEC07F00833297 /* Base */,
+				2C8AA6A625DEC08200833297 /* ar */,
+			);
+			name = StudentNotifications.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA6AA25DEC0A300833297 /* StudentSettings.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA6A925DEC0A300833297 /* Base */,
+				2C8AA6AD25DEC0AC00833297 /* ar */,
+			);
+			name = StudentSettings.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA6B125DEC2B300833297 /* LeaderChats.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA6B025DEC2B300833297 /* Base */,
+				2C8AA6B425DEC2B900833297 /* ar */,
+			);
+			name = LeaderChats.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8AA6B725DEC2E100833297 /* StudentProfile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8AA6B625DEC2E100833297 /* Base */,
+				2C9B698825DF105300C6AAD5 /* ar */,
+			);
+			name = StudentProfile.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17BFC25DDA2B900A9AB3C /* TypeSelection.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17BFB25DDA2B900A9AB3C /* Base */,
+				2CA17BFF25DDA2BF00A9AB3C /* ar */,
+			);
+			name = TypeSelection.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C0225DDA3DC00A9AB3C /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C0125DDA3DC00A9AB3C /* Base */,
+				2CA17C0525DDA3E000A9AB3C /* ar */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C0825DDA4FE00A9AB3C /* Registration.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C0725DDA4FE00A9AB3C /* Base */,
+				2CA17C0C25DDA50200A9AB3C /* ar */,
+			);
+			name = Registration.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C0F25DDA5F700A9AB3C /* AlreadyRegisteredAlert.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C0E25DDA5F700A9AB3C /* Base */,
+				2CA17C1225DDA5FD00A9AB3C /* ar */,
+			);
+			name = AlreadyRegisteredAlert.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C1525DDA73D00A9AB3C /* Verfication.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C1425DDA73D00A9AB3C /* Base */,
+				2CA17C1825DDA74200A9AB3C /* ar */,
+			);
+			name = Verfication.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C1C25DDA86600A9AB3C /* AboutUs.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C1B25DDA86600A9AB3C /* Base */,
+				2CA17C1F25DDA86A00A9AB3C /* ar */,
+			);
+			name = AboutUs.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C2325DDA88A00A9AB3C /* SentSuccessfully.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C2225DDA88A00A9AB3C /* Base */,
+				2CA17C2625DDA88E00A9AB3C /* ar */,
+			);
+			name = SentSuccessfully.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C2925DDA8AE00A9AB3C /* ForgotPassword.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C2825DDA8AE00A9AB3C /* Base */,
+				2CA17C2C25DDA8B400A9AB3C /* ar */,
+			);
+			name = ForgotPassword.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C3025DDA91900A9AB3C /* GroupMemberTableCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C2F25DDA91900A9AB3C /* Base */,
+				2CA17C3325DDA91E00A9AB3C /* ar */,
+			);
+			name = GroupMemberTableCell.xib;
+			sourceTree = "<group>";
+		};
+		2CA17C3725DDA95600A9AB3C /* TeacherHome.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C3625DDA95600A9AB3C /* Base */,
+				2CA17C3A25DDAA4300A9AB3C /* ar */,
+			);
+			name = TeacherHome.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C3E25DDAC4600A9AB3C /* Plans.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C3D25DDAC4600A9AB3C /* Base */,
+				2CA17C4125DDAC9600A9AB3C /* ar */,
+			);
+			name = Plans.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C4525DDADCB00A9AB3C /* TeacherDepartmentDetails.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C4425DDADCB00A9AB3C /* Base */,
+				2CA17C4825DDADD000A9AB3C /* ar */,
+			);
+			name = TeacherDepartmentDetails.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C4C25DDAE7700A9AB3C /* CreateDepartment.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C4B25DDAE7700A9AB3C /* Base */,
+				2CA17C4F25DDAE7A00A9AB3C /* ar */,
+			);
+			name = CreateDepartment.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C5325DDAFA600A9AB3C /* EditDepartment.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C5225DDAFA600A9AB3C /* Base */,
+				2CA17C5625DDAFA900A9AB3C /* ar */,
+			);
+			name = EditDepartment.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA17C5925DDAFFF00A9AB3C /* GroupDetails.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA17C5825DDAFFF00A9AB3C /* Base */,
+				2CA17C5C25DDB00300A9AB3C /* ar */,
+			);
+			name = GroupDetails.storyboard;
+			sourceTree = "<group>";
+		};
+		2CE33F19257A8442007DCE36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE33F1A257A8442007DCE36 /* Base */,
+				2CA17BF925DDA16400A9AB3C /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA8A0199266072900052672E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8A0198266072900052672E /* en */,
+				FA8A019B266072950052672E /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CE33F1D257A8442007DCE36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CE33F1E257A8442007DCE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CE33F20257A8442007DCE36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C05829475B8DABA2A0C720 /* Pods-gather-in.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "gather-in/gather-in.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LW86S2R48;
+				INFOPLIST_FILE = "$(SRCROOT)/gather-in/Configuration/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gather-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2CE33F21257A8442007DCE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C28BF918A7D6857FCE6DB62 /* Pods-gather-in.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "gather-in/gather-in.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LW86S2R48;
+				INFOPLIST_FILE = "$(SRCROOT)/gather-in/Configuration/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gather-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE33F06257A8440007DCE36 /* Build configuration list for PBXProject "gather-in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE33F1D257A8442007DCE36 /* Debug */,
+				2CE33F1E257A8442007DCE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE33F1F257A8442007DCE36 /* Build configuration list for PBXNativeTarget "gather-in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE33F20257A8442007DCE36 /* Debug */,
+				2CE33F21257A8442007DCE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE33F03257A8440007DCE36 /* Project object */;
+}

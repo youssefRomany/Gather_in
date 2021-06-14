@@ -1,0 +1,233 @@
+/*
+  Localizable.strings
+  Amber
+
+  Created by YoussefRomany on 12/07/2020.
+  Copyright © 2020 HardTask. All rights reserved.
+*/
+
+/// fonts
+"regFont" = "Poppins-Regular";
+"boldFont" = "Poppins-Bold";
+"midFont" = "Poppins-SemiBold";
+
+/// webView direction
+"myDir"="LTR";
+"Lang"="عربي";
+"Home"="Home";
+"Garages"="Garages";
+
+/// authentications
+"EmptyMAil"="Please enter your email";
+"EmptyUserName" = "Please enter user name";
+"EmptyPassword" = "Please enter your password";
+"UnValidEmail" = "Please enter a valid email";
+"EmptyPhone"="Please enter your phone number";
+"UnValidPhone" = "Phone number must be at least 8 digit";
+"emptyFullName" = "Please enter Full name";
+"agreeTerms" = "Please agree terms first";
+"emptyOldPassword" = "Please enter your old password";
+"emptyNewPassword" = "Please enter new password";
+"emptyConfirmPassword" = "Please enter confirm password";
+"equalPassword" = "Password and confirm password are not same.";
+"emptyLink" = "The link is not Available";
+"unknownError" = "Sorry, something went wrong, please try again later";
+"EmptyMailPhone" = "Please enter you email or phone";
+"EmptyFirstName" = "Please enter first name";
+"EmptyLastName" = "Please enter last name";
+"EnterPhoneOrMail"="Please enter phone or email";
+"forgetResponse" = "We have sent email to change the password. Please change password and then try login to the app.";
+"SuccessfullyChangePassword" = "Your password has been changed successfully";
+"sentMessage" = "Your message has been sent successfully";
+"emptyData" = "There is no data for showing";
+"UnFaveSuccessfully" = "Delete item successfully from your favourites list";
+"AddToCart" = "Added product to cart successfully";
+"AddToFav" = "Added product to your items list successfully";
+"emptyCartData" = "Your shopping cart is empty";
+"emptyOrdersData" = "No Orders added by you";
+"emptyFavouritData" = "No products added in your favourites list";
+"emptyCategoriesData" = "Category list is empty";
+"emptyAddresseData" = "No address added by you. Please add address first";
+"emptyProductData" = "There is no products";
+"emptyNotification"="there is no notifications";
+"AddAddressSuccessfully"="your address had been added successfully";
+"enterMessage" = "Please enter your message";
+"UnValidPassword" = "password must be at least 6 digit";
+
+/// addresses
+"ChooseCountry" = "Please choose your country";
+"ChooseCity" = "Please choose your city";
+"ChooseArea" = "Please choose your area";
+"EmptyTitle"="please enter your addres title";
+"EmptyBlook"="please enter your block";
+"EmptyStreet"="please enter your street";
+"EmptyBuilding"="please enter your building number ";
+"EmptyFloor"="please enter your Floor";
+"EmptyApartment"="please enter your apartment number";
+"enterAddressdDetails"="please enter your address in details";
+
+
+/// screen titles
+"Login"="Login";
+"Register"="Register";
+"ContactUs" = "Contact Us";
+"AboutUs"="About Us";
+"ForgetPassword"="Forget Password";
+"MyAccount"="My Account";
+"Notifications"="Notifications";
+"Favourite"="Favourite";
+"MyOrder" = "My Orders";
+"OrderDetailse"="Order Details";
+"Cart"="Cart";
+"Checkout" = "Checkout";
+"EditProfile"="Edit Profile";
+"ChangePassword" = "Change Password";
+"Addresses" = "Addresses";
+"AddAddress" = "Add Address";
+"Cart"="Cart";
+"History"="History";
+"logout"="Logout";
+"AddAnotherCar"="Add Another Car";
+"filterHeader"="Filter";
+"Media"="Media";
+
+
+// images
+"cancelFileTitle" = "Delete Attachment";
+"cancelFileBody" = "Do you really want to delete this attachment?";
+
+"ComposeMessage"="Compose message";
+
+
+// sky floating
+"oldPassword" = "Old Password";
+"newPassword" = "New Password";
+"confirmNewPassword" = "Confirmation Password";
+
+"Title"="Title*";
+"Country"="Country*";
+"City"="City*";
+"Area"="Area*";
+"Block"="Block*";
+"Street"="Street*";
+"Building"="BuildingNo*";
+"Floor"="Floor*";
+"ApartmentNumber"="Apartment Number*";
+"AutomaticNumber"="Automatic Number";
+"PhoneRecipientNumber"="Phone Number";
+"ReqPhoneRecipientNumber"="Phone Number*";
+
+
+"AddressDetailse"="Address Details";
+
+
+"notComplete" = "payment operation not completed";
+"paymentComplete" = "payment completed successfully";
+"OrderNum"="Order Num";
+"shouldLogin"="You must make login first";
+
+"emptyName" = "please enter your name";
+"emptyMessage" = "please enter your message";
+
+"Message"="Message";
+"TermsAndCondition"="Terms And Condition";
+"SelectCountry"="Please select country first";
+"EmptyGarages"="there is no garages";
+
+
+"wrongpassword"="Old password is wrong. Please enter correct old password and try again";
+"noUserFound"="User with this details not found. Please check details and try again.";
+"AboutGarage"="About Garage";
+"Name"="Name";
+"GarageName"="Garage Name";
+
+"emptyname"="please enter your name";
+"emptyCaragename"="please enter carage name";
+"selectImage"="please choose logo image";
+"SelectServices"="Select Services";
+
+"SelectPackage"="Select Package";
+"RequestaServices"="Request a Services";
+"ServiceInformation"="Service Information";
+"AboutGarage"="About Garage";
+"Reviews"="Reviews";
+"YourReview"="Your Review...";
+"enterReview"="Please enter your review";
+"DescribeProblem"="Describe your problem...";
+"emptyProblem"="please enter your problem description";
+"MyGarage"="My Garage";
+"emptyCarTitle"="Please enter car title";
+"emptyYear"="Please choose the year";
+"emptyChase"="Please enter Chase Number";
+"MessageSentSuccessfully" = "your Message has been added successfully";
+"ExistPhone" = "mobile number used in another account";
+"ExistEmail" = "Email address used in another account";
+"NotUserFound"="not found,no user with this mobile/email";
+"InValidData"="in valid data";
+"NoEmailFound" = "A user with this email could not be found.";
+"NotExistEmail"="E-Mail address is not exists yet";
+"LoginAgain"="Please Log in using your new password";
+"WrongOldPassword"="old password is wrong";
+
+"fialSendMail"="failed to send email";
+"updateData"="your data have been updated successfully";
+"EmptyReviews"="there is no reviews";
+"AddRateSuccessfully"="Your review has been sent successfully";
+"MustRegister"="you must have customer account to add review";
+"enterRate"="Please add your rating";
+"EmptyBrands"="there is no brands";
+"EmptyCars"="there is no cars";
+"AddCarSuccessfully"="Your Car has been Added successfully";
+"SetChaceNum"="you must set your chase number";
+"invalidImage"="in valid image extension";
+"emptyCarImage"="Please enter car image";
+"AddFirstCar"="Add First Car";
+"AddAnotherCar"="Add Another Car";
+"Save"="Save";
+"editSuccessfully"="data has been edited successfully";
+"EditCarData"="Edit Car Data";
+"NotificationDetails"="Notification Details";
+"SelectService"="Please select at least one service";
+"Attention" = "Attention";
+"addImageBody" = "you have already 5 image please delete image first to add anthor image!!!";
+"addVideoBody" = "you have already video please delete video first to add anthor video!!!";
+"cancelFileTitle" = "Delete Attachment";
+"invalidVideo"="in valid video extension";
+"emptyMedia" = "Please add at least one image";
+
+"emptyServices"="Please select at least one service";
+"MyRequests"="My Requests";
+"Currency"="QAR";
+"requestsavedsuccessfully"="request saved successfully";
+
+"Cash"="Cash";
+"Visa"="Visa";
+"MasterCard"="MasterCard";
+
+"emptyRequestData"="there is no requests";
+"Gallery"="Gallery";
+"EditRequest"="Edit Request";
+"ChoosePayment"="Please choose payment method";
+"PleaseChooseFilter"="Nothing selected to apply filter, Please select one at least";
+"Location"="Location";
+"Finished"="Finished";
+"InProgress"="In Progress";
+"servicesTitle"="Services";
+"EmptyCode"="Please enter the code";
+"EnterDepartment"="successfully entered to department";
+"Group"="Group";
+"Department"="Department";
+"Member"="Member";
+"EmptyDepartmenName"="Please, enter the department name";
+"EmptyDepartmentCode"="Please, enter the code";
+"DepartmentAdded"="Department added successfully";
+"cantAddMoreDepartment"="sorry, you cant add more than three department";
+"EmptyGroupName"="Please, enter the Group name";
+"GrouptAdded"="Group added successfully";
+"deleteDepartmentDone"="Department deleted successfully";
+"deleteGroupDone"="Group deleted successfully";
+""="";
+""="";
+""="";
+""="";
+""="";

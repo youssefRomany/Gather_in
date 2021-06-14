@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "Code"; ObjectID = "SZh-C1-4B7"; */
+"SZh-C1-4B7.placeholder" = "الكود الخاص";
+
+/* Class = "UITextField"; placeholder = "Department Name"; ObjectID = "ahf-C2-dR2"; */
+"ahf-C2-dR2.placeholder" = "اسم القسم";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "btL-xK-Cii"; */
+"btL-xK-Cii.normalTitle" = "تأكيد";
+
+/* Class = "UILabel"; text = "Create New Department"; ObjectID = "jgx-6F-CSj"; */
+"jgx-6F-CSj.text" = "انشاء قسم جديد";

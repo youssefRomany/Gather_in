@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jkX-ob-dxI">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification And Report MessageVC-->
+        <scene sceneID="yia-NL-8pu">
+            <objects>
+                <viewController storyboardIdentifier="NotificationAndReportMessageVC" id="Mme-bH-6Mk" customClass="NotificationAndReportMessageVC" customModule="gather_in" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xjx-l5-qPC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qWk-ve-op4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="142"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="white-gradient" translatesAutoresizingMaskIntoConstraints="NO" id="GPs-pO-uRI">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="142"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22R-3w-GbP">
+                                        <rect key="frame" x="8" y="53.5" width="35" height="35"/>
+                                        <state key="normal" image="ab_back_black"/>
+                                        <connections>
+                                            <action selector="backPressed:" destination="Mme-bH-6Mk" eventType="touchUpInside" id="Upo-Nr-UPy"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notifications And Reports" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naD-Er-ALo">
+                                        <rect key="frame" x="87.5" y="61" width="200.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                        <color key="textColor" name="Color5"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="22R-3w-GbP" firstAttribute="leading" secondItem="qWk-ve-op4" secondAttribute="leading" constant="8" id="3ls-EH-nFc"/>
+                                    <constraint firstItem="GPs-pO-uRI" firstAttribute="top" secondItem="qWk-ve-op4" secondAttribute="top" id="Smw-BS-Cly"/>
+                                    <constraint firstItem="naD-Er-ALo" firstAttribute="centerX" secondItem="qWk-ve-op4" secondAttribute="centerX" id="eJx-VA-FgX"/>
+                                    <constraint firstAttribute="bottom" secondItem="GPs-pO-uRI" secondAttribute="bottom" id="jJk-rF-vsO"/>
+                                    <constraint firstItem="GPs-pO-uRI" firstAttribute="leading" secondItem="qWk-ve-op4" secondAttribute="leading" id="mif-VE-ifX"/>
+                                    <constraint firstItem="22R-3w-GbP" firstAttribute="centerY" secondItem="qWk-ve-op4" secondAttribute="centerY" id="pto-Ly-YyL"/>
+                                    <constraint firstAttribute="trailing" secondItem="GPs-pO-uRI" secondAttribute="trailing" id="rvQ-JA-izJ"/>
+                                    <constraint firstItem="naD-Er-ALo" firstAttribute="centerY" secondItem="qWk-ve-op4" secondAttribute="centerY" id="ytd-7h-FRX"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can add notes as a message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8C-Xa-GPP">
+                                <rect key="frame" x="16" y="158" width="254" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" name="Color2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VZM-dG-D1r">
+                                <rect key="frame" x="16" y="195" width="343" height="200"/>
+                                <color key="backgroundColor" name="Color4"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" name="Color6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Write notes here ..."/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apW-Fp-GgU">
+                                <rect key="frame" x="279" y="588" width="80" height="63"/>
+                                <state key="normal" image="ic_send_message"/>
+                                <connections>
+                                    <action selector="sendPressed:" destination="Mme-bH-6Mk" eventType="touchUpInside" id="hmi-CS-uIQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iPe-dZ-EUU"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qWk-ve-op4" firstAttribute="top" secondItem="Xjx-l5-qPC" secondAttribute="top" id="1BS-ME-13y"/>
+                            <constraint firstItem="iPe-dZ-EUU" firstAttribute="trailing" secondItem="VZM-dG-D1r" secondAttribute="trailing" constant="16" id="2QW-nI-a9j"/>
+                            <constraint firstItem="VZM-dG-D1r" firstAttribute="top" secondItem="f8C-Xa-GPP" secondAttribute="bottom" constant="16" id="3Z2-NA-gt5"/>
+                            <constraint firstItem="iPe-dZ-EUU" firstAttribute="trailing" secondItem="apW-Fp-GgU" secondAttribute="trailing" constant="16" id="4Zh-6E-jHI"/>
+                            <constraint firstItem="f8C-Xa-GPP" firstAttribute="top" secondItem="qWk-ve-op4" secondAttribute="bottom" constant="16" id="Ahn-rs-SCA"/>
+                            <constraint firstItem="iPe-dZ-EUU" firstAttribute="bottom" secondItem="apW-Fp-GgU" secondAttribute="bottom" constant="16" id="cs3-gq-TnF"/>
+                            <constraint firstAttribute="trailing" secondItem="qWk-ve-op4" secondAttribute="trailing" id="g3S-wf-1eY"/>
+                            <constraint firstItem="VZM-dG-D1r" firstAttribute="height" secondItem="Xjx-l5-qPC" secondAttribute="height" multiplier="0.3" id="ofG-Ys-64n"/>
+                            <constraint firstItem="qWk-ve-op4" firstAttribute="leading" secondItem="iPe-dZ-EUU" secondAttribute="leading" id="tjY-qY-ppk"/>
+                            <constraint firstItem="VZM-dG-D1r" firstAttribute="leading" secondItem="iPe-dZ-EUU" secondAttribute="leading" constant="16" id="xDS-fF-paI"/>
+                            <constraint firstItem="f8C-Xa-GPP" firstAttribute="leading" secondItem="iPe-dZ-EUU" secondAttribute="leading" constant="16" id="zGd-1P-EJH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="lTW-oi-XYq"/>
+                    <connections>
+                        <outlet property="backButton" destination="22R-3w-GbP" id="DyW-wK-LOa"/>
+                        <outlet property="messageTextView" destination="VZM-dG-D1r" id="Ypp-1v-RA6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qST-L8-WJL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116" y="105.69715142428787"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TVv-mb-aEJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="jkX-ob-dxI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dkP-zC-pLF">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Mme-bH-6Mk" kind="relationship" relationship="rootViewController" id="czm-Up-Lv2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SrD-Y4-tbD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="176.80000000000001" y="105.69715142428787"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ab_back_black" width="35" height="35"/>
+        <image name="ic_send_message" width="80" height="63"/>
+        <image name="white-gradient" width="375" height="142"/>
+        <namedColor name="BackgroundColor">
+            <color red="0.97600001096725464" green="0.97600001096725464" blue="0.97600001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color2">
+            <color red="0.28999999165534973" green="0.28999999165534973" blue="0.28999999165534973" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color4">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color5">
+            <color red="0.53299999237060547" green="0.28200000524520874" blue="0.83899998664855957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color6">
+            <color red="0.60799998044967651" green="0.60799998044967651" blue="0.60799998044967651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

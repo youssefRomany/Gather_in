@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "88h-km-Pe8"; */
+"88h-km-Pe8.normalTitle" = "تأكيد";
+
+/* Class = "UITextField"; placeholder = "Enter department code"; ObjectID = "lwM-c6-GL3"; */
+"lwM-c6-GL3.placeholder" = "ادخل الكود الخاص";
+
+/* Class = "UILabel"; text = "Join a group"; ObjectID = "nOU-uM-nk9"; */
+"nOU-uM-nk9.text" = "انضمام الي القسم";

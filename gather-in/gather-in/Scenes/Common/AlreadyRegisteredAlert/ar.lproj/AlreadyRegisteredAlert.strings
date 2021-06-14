@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "This email is already registered"; ObjectID = "Aqg-qu-x0P"; */
+"Aqg-qu-x0P.text" = "هذا البريد الالكتروني مسجل بالفعل";
+
+/* Class = "UIButton"; normalTitle = "Log in"; ObjectID = "QqL-nG-uHp"; */
+"QqL-nG-uHp.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UIButton"; normalTitle = "Forgot password ?"; ObjectID = "ky6-bi-SYZ"; */
+"ky6-bi-SYZ.normalTitle" = "نسيت كلمة المرور ؟";

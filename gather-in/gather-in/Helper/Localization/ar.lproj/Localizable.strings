@@ -1,0 +1,264 @@
+/*
+  Localizable.strings
+  Amber
+
+  Created by YoussefRomany on 12/07/2020.
+  Copyright © 2020 HardTask. All rights reserved.
+*/
+
+/// fonts
+"regFont"="GEDinarOne-Medium";
+"boldFont"="GEDinarOne-Medium";
+"midFont"="GEDinarOne-Medium";
+
+/// webView direction
+"myDir"="LTR";
+"Lang"="English";
+"Home"="Home";
+"Garages"="كراجات";
+
+/// authentications
+"EmptyMAil"="رجاءا أدخل بريدك الإلكتروني";
+"EmptyUserName"="الرجاء إدخال اسم المستخدم";
+"EmptyPassword"="من فضلك أدخل كلمة المرور";
+"UnValidEmail"="يرجى إدخال البريد الإلكتروني الصحيح";
+"EmptyPhone"="يرجى إدخال رقم الهاتف الخاص بك";
+"UnValidPhone"="يجب أن يتكون رقم الهاتف من 8 أرقام على الأقل";
+"emptyFullName"="الرجاء إدخال الاسم الكامل";
+"agreeTerms"="الرجاء الموافقة على الشروط أولاً";
+"emptyOldPassword"="الرجاء إدخال كلمة المرور القديمة";
+"emptyNewPassword"="الرجاء إدخال كلمة المرور الجديدة";
+"emptyConfirmPassword"="الرجاء إدخال تأكيد كلمة المرور";
+"equalPassword"="كلمة المرور وتأكيد كلمة المرور ليسا متطابقين.";
+"emptyLink"="الرابط غير متوفر";
+"unknownError"="عذرا، هنالك خطأ ما، الرجاء إعادة المحاولة لاحقا";
+"EmptyMailPhone"="الرجاء إدخال البريد الإلكتروني أو الهاتف";
+"EmptyFirstName"="الرجاء إدخال الاسم الأول";
+"EmptyLastName"="الرجاء إدخال الاسم الأخير";
+"EnterPhoneOrMail"="الرجاء إدخال الهاتف أو البريد الإلكتروني";
+"forgetResponse"="لقد أرسلنا بريدًا إلكترونيًا لتغيير كلمة المرور. يرجى تغيير كلمة المرور ثم محاولة تسجيل الدخول إلى التطبيق.";
+"SuccessfullyChangePassword" = "تم تغيير كلمة المرور الخاصة بك بنجاح";
+"sentMessage"="تم ارسال رسالتك بنجاح";
+"emptyData"="لا توجد بيانات للعرض";
+"UnFaveSuccessfully"="حذف العنصر بنجاح من قائمة المفضلة";
+"AddToCart"="تمت إضافة المنتج إلى سلة التسوق بنجاح";
+"AddToFav"="تمت إضافة المنتج إلى قائمة المفضلة الخاصة بك بنجاح";
+"emptyCartData"="سلة التسوق الخاصة بك فارغة";
+"emptyOrdersData"="لم تقم بإضافة أي طلبات";
+"emptyFavouritData"="لا توجد منتجات مضافة في قائمة المفضلة";
+"emptyCategoriesData"="قائمة الفئات فارغة";
+"emptyAddresseData"="لم تقم بإضافة أي عنوان. الرجاء إضافة العنوان أولاً";
+"emptyProductData"="لا توجد منتجات";
+"emptyNotification"="لا توجد إخطارات";
+"AddAddressSuccessfully"="تمت إضافة عنوانك بنجاح";
+"enterMessage"="الرجاء إدخال رسالتك";
+"UnValidPassword" = "كلمة المرور يجب أن تتكون من 6 أرقام على الأقل";
+"InValidData"="in valid data";
+"WrongOldPassword"="كلمة المرور القديمة خاطئة";
+
+/// addresses
+"ChooseCountry"="الرجاء اختيار بلدك";
+"ChooseCity"="الرجاء اختيار مدينتك";
+"ChooseArea"="الرجاء اختيار منطقتك";
+"EmptyTitle"="الرجاء إدخال عنوان عنوانك";
+"EmptyBlook"="الرجاء إدخال القطعه الخاصة بك";
+"EmptyStreet"="الرجاء إدخال شارعك";
+"EmptyBuilding"="الرجاء إدخال رقم المبنى الخاص بك";
+"EmptyFloor"="الرجاء إدخال الطابق الخاص بك";
+"EmptyApartment"="الرجاء إدخال رقم شقتك";
+"enterAddressdDetails"="الرجاء إدخال عنوانك بالتفصيل";
+
+
+/// screen titles
+"Login"="تسجيل الدخول";
+"Register"="تسجيل";
+"ContactUs"="اتصل بنا";
+"AboutUs"="من نحن";
+"ForgetPassword"="نسيت كلمة المرور";
+"MyAccount"="حسابي";
+"Notifications"="الإشعارات";
+"Favourite"="المفضلة";
+"MyOrder"="طلباتي";
+"OrderDetailse"="تفاصيل الطلب";
+"Cart"="السلة";
+"Checkout" = "الدفع";
+"EditProfile"="تعديل الملف";
+"ChangePassword"="تغيير كلمة المرور";
+"Addresses"="العناوين";
+"AddAddress"="إضافة عنوان";
+"Cart"="السلة";
+"History"="السجلات";
+"logout"="تسجيل خروج";
+"AddAnotherCar"="إضافة سيارة أخرى";
+"filterHeader"="تصفيه";
+"Media"="المعرض";
+
+
+// images
+"cancelFileTitle"="Delete Attachment";
+"cancelFileBody"="Do you really want to delete this attachment?";
+"ComposeMessage"="Compose message";
+
+
+// sky floating
+"oldPassword"="كلمة المرور القديمة";
+"newPassword"="كلمة سر جديدة";
+"confirmNewPassword"="تأكيد كلمة المرور";
+
+"Title"="العنوان*";
+"Country"="الدولة *";
+"City"="المدينة *";
+"Area"="المنطقة *";
+"Block"="القطعة *";
+"Street"="الشارع *";
+"Building"="المبنى *";
+"Floor"="الطابق*";
+"ApartmentNumber"="رقم الشقة *";
+"AutomaticNumber"="الرقم الآلي للعنوان";
+"PhoneRecipientNumber"="رقم الهاتف";
+"ReqPhoneRecipientNumber"="رقم الهاتف *";
+"AddressDetailse"="العنوان بالتفصيل";
+"WinninAuction"="المزادات الفائزة";
+
+
+
+
+"notComplete"="عملية الدفع غير مكتملة";
+"paymentComplete"="عملية الدفع صحيحة";
+"OrderNum"="رقم الطلب";
+"shouldLogin"="يجب أن تقوم بتسجيل الدخول أولاً";
+
+"emptyMessage"="الرجاء كتابة الرساله";
+"emptyName"="الرجاء ادخال الاسم";
+"Message"="الرسالة";
+
+"TermsAndCondition"="الشروط والأحكام";
+"SelectCountry"="الرجاء تحديد الدولة أولاً";
+"EmptyGarages"="لا يوجد كراجات";
+
+"wrongpassword"="كلمة المرور القديمة خاطئة. الرجاء إدخال كلمة المرور القديمة الصحيحة والمحاولة مرة أخرى";
+"noUserFound"="لم يتم العثور على المستخدم بهذه التفاصيل. يرجى التحقق من التفاصيل والمحاولة مرة أخرى.";
+"AboutGarage"="حول الكراج";
+
+"Name"="الاسم";
+"GarageName"="اسم الكراج";
+"emptyname"="من فضلك أدخل إسمك";
+"emptyCaragename"="الرجاء إدخال اسم الكراج";
+"selectImage"="الرجاء اختيار صورة الشعار";
+"SelectServices"="اختر الخدمة";
+"SelectPackage"="اختر الباقة";
+"RequestaServices"="طلب الخدمات";
+"ServiceInformation"="معلومات الخدمة";
+"AboutGarage"="حول الكراج";
+"Reviews"="التعليقات";
+"YourReview"="مراجعتك...";
+"enterReview"="من فضلك أدخل رأيك";
+"DescribeProblem"="صِف مشكلتك ...";
+"emptyProblem"="الرجاء إدخال وصف مشكلتك";
+"MyGarage"="مرآبي";
+"emptyCarTitle"="الرجاء إدخال عنوان السيارة";
+"emptyYear"="الرجاء اختيار السنة";
+"emptyChase"="الرجاء إدخال رقم الشاسيه";
+"MessageSentSuccessfully"="تمت اضافة الرسالة بنجاح";
+"ExistPhone"="رقم الهاتف تم التسجيل به من قبل";
+"ExistEmail"=" البريد الإلكتروني تم التسجيل به من قبل";
+"NotUserFound"="غير موجود ، لا يوجد مستخدم بهذا الجوال / البريد الإلكتروني";
+"fialSendMail"="فشل في إرسال البريد الإلكتروني";
+"updateData"="تم تحديث بياناتك بنجاح";
+"EmptyReviews"="لا توجد مراجعات";
+"AddRateSuccessfully"="تم إرسال تعليقك بنجاح";
+"MustRegister"="يجب أن يكون لديك حساب عميل لإضافة مراجعة";
+"enterRate"="الرجاء إضافة تقييمك";
+"EmptyBrands"="لا توجد علامات تجارية";
+"EmptyCars"="لا توجد سيارات";
+"AddCarSuccessfully"="تمت إضافة سيارتك بنجاح";
+"SetChaceNum"="يجب عليك تعيين رقم الشاسيه";
+"invalidImage"="ملحق صورة غير صالح";
+"emptyCarImage"="الرجاء إدخال صورة السيارة";
+"AddFirstCar"="إضافة أول سيارة";
+"AddAnotherCar"="إضافة سيارة أخرى";
+"Save"="حفظ";
+"editSuccessfully"="تم تعديل البيانات بنجاح";
+"EditCarData"="تعديل بيانات السيارة";
+"NotificationDetails"="تفاصيل الاشعار";
+"SelectService"="الرجاء تحديد خدمة واحدة على الأقل";
+
+"addImageBody"="لديك 5 صورة بالفعل ، يرجى حذف الصورة أولاً لإضافة صورة اخر !!!";
+"addVideoBody"="لديك فيديو بالفعل ، يرجى حذف فيديو أولاً لإضافة فيديو اخر !!!";
+"Attention"="تنبيه";
+"cancelFileTitle"="حذف الملصقات";
+"cancelFileBody"="هل انت متاكد من حذف هذا الملصق";
+"invalidVideo"="ملحق فيديو غير صالح";
+"emptyMedia"="من فضلك اضف صورة واحدة علي الاقل ";
+"emptyServices"="الرجاء تحديد خدمة واحدة على الأقل";
+"MyRequests"="طلباتي";
+"Currency"="QAR";
+"requestsavedsuccessfully"="تم حفظ الطلب بنجاح";
+"Cash"="نقدي";
+"Visa"="فيزا";
+"MasterCard"="ماستر كارد";
+"emptyRequestData"="لا توجد طلبات";
+"Gallery"="المعرض";
+"EditRequest"="تعديل الطلب";
+"ChoosePayment"="الرجاء اختيار طريقة الدفع";
+"PleaseChooseFilter"="لم يتم تحديد اي شيئ لعمل فلتر ، يرجي تحديد واحد علي الاقل.";
+"Location"="الموقع";
+"Finished"="انتهى";
+"InProgress"="قيد التنفيذ";
+"servicesTitle"="الخدمات";
+
+"Email" = "البريد الالكتروني";
+"Password" = "كلمة المرور";
+"Name" = "الاسم";
+"Invalid data" = "البيانات غير صحيحة";
+"Something went wrong..." = "... حدث خطأ";
+"Member" = "عضو";
+"Success" = "تم بنجاح";
+"Invalid Name" = "الاسم غير صالح";
+"Please enter a valid name" = "الرجاء ادخال اسم صحيح";
+"Invalid Email" = "البريد إلكتروني غير صالح";
+"Please enter a valid email address" = "يرجى إدخال عنوان بريد إلكتروني صالح";
+"Invalid Password" = "كلمة المرور غير صالحة";
+"Please enter a valid password" = "الرجاء إدخال كلمة مرور صالحة";
+"Invalid email or password" = "البريد الالكتروني او كلمة المرور غير صحيحين";
+"Please make sure you have entered the correct email and password" = "برجاء التأكد من صحة البريد الالكتروني او كلمة المرور";
+"There is no messages yet ...." = ".... لا توجد رسائل حاليا";
+"Send Answer" = "ارسال اجابة";
+"NoEmailFound" = "تعذر العثور على مستخدم بهذا البريد الإلكتروني.";
+"LoginAgain"="الرجاء تسجيل الدخول باستخدام كلمة المرور الجديدة";
+
+
+// MARK: - Student
+"Enter verfication code" = "ادخل رمز التحقق";
+"My Group" = "مجموعتي";
+"Locked" = "مغلق";
+
+
+// MARK: - Teacher
+"Create up to " = "انشاء حتي";
+"deapartments" = "اقسام";
+"groups" = "مجموعات";
+"member" = "عضو";
+"selected" = "مؤكد";
+"select" = "اختيار";
+"Answer exist" = "يوجد اجابة";
+"No answer found" = "لا يوجد اجابة";
+"Send Questions To Groups" = "ارسال الاسئلة الي المجموعات";
+"Notifications And Reports" = "اشعارات وبلاغات";
+"NotExistEmail"="عنوان البريد الإلكتروني غير موجود بعد";
+"EmptyCode"="الرجاء إدخال الرمز";
+"EnterDepartment"="دخلت إلى القسم بنجاح";
+
+
+"Group"="مجموعة";
+"Department"="قسم";
+"Member"="عضو";
+"EmptyDepartmenName"="من فضلك أدخل اسم القسم";
+"EmptyDepartmentCode"="من فضلك أدخل الرمز";
+"DepartmentAdded"="تمت إضافة القسم بنجاح";
+"cantAddMoreDepartment"="آسف ، لا يمكنك إضافة أكثر من ثلاثة أقسام";
+"EmptyGroupName"="من فضلك ، أدخل اسم المجموعة";
+"GrouptAdded"="تمت إضافة المجموعة بنجاح";
+"deleteDepartmentDone"="تم حذف القسم بنجاح";
+"deleteGroupDone"="تم حذف المجموعة بنجاح";
+

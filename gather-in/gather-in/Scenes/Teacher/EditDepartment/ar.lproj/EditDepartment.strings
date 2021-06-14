@@ -1,0 +1,15 @@
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "VAd-4d-Skk"; */
+"VAd-4d-Skk.placeholder" = "اسم القسم";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "bQn-JR-BEe"; */
+"bQn-JR-BEe.normalTitle" = "حفظ";
+
+/* Class = "UILabel"; text = "Department A"; ObjectID = "eLR-on-t2Z"; */
+"eLR-on-t2Z.text" = "Department A";
+
+/* Class = "UITextField"; placeholder = "Code"; ObjectID = "vgp-vK-LQT"; */
+"vgp-vK-LQT.placeholder" = "الكود الخاص";
+
+/* Class = "UILabel"; text = "Edit "; ObjectID = "wN9-Zd-uSR"; */
+"wN9-Zd-uSR.text" = "تعديل";

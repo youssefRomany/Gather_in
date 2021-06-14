@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Group Result"; ObjectID = "Hjb-ci-HLV"; */
+"Hjb-ci-HLV.text" = "نتائج المجموعات";
+
+/* Class = "UILabel"; text = "( Maximum 3 sections )"; ObjectID = "N00-fo-GNt"; */
+"N00-fo-GNt.text" = "( بحد اقصي ٣ مجموعات )";
+
+/* Class = "UILabel"; text = "Send Notifications"; ObjectID = "Wg9-am-6mO"; */
+"Wg9-am-6mO.text" = "ارسال الاشعارات";
+
+/* Class = "UILabel"; text = "List of sections"; ObjectID = "o2r-fB-qfu"; */
+"o2r-fB-qfu.text" = "قائمة الاقسام";
+
+/* Class = "UILabel"; text = "Leader Name"; ObjectID = "v0J-lO-MS2"; */
+"v0J-lO-MS2.text" = "اسم الرئيس";
+
+/* Class = "UIButton"; normalTitle = "Upgrade"; ObjectID = "wje-tV-oQA"; */
+"wje-tV-oQA.normalTitle" = "الترقية";

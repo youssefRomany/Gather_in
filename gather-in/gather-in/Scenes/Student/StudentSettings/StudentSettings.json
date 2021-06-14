@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "id":0,
+            "title": "Edit Profile",
+            "titleAr": "تعديل الملف الشخصي"
+        },
+        {
+            "id":12,
+            "title": "Change Password",
+            "titleAr": "تغيير كلمة المرور"
+        },
+        {
+            "id":1,
+            "title": "About",
+            "titleAr": "معلومات عن"
+        },
+        {
+            "id":3,
+            "title": "Leader Chats",
+            "titleAr": "دردشات القائد"
+        },
+        {
+            "id":4,
+            "title": "Logout",
+            "titleAr": "تسجيل الخروج"
+        }
+    ]
+}

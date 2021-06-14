@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TeacherDepartmentCell" rowHeight="70" id="KGk-i7-Jjw" customClass="TeacherDepartmentCell" customModule="gather_in" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="74"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2wp-4j-pR1">
+                        <rect key="frame" x="0.0" y="8" width="347" height="66"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74G-aU-jiB">
+                                <rect key="frame" x="20" y="16" width="245" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="AFT-xP-7J3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" name="Color1"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kb0-LN-4md">
+                                <rect key="frame" x="24" y="37" width="68" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="68" id="C10-vZ-TZK"/>
+                                    <constraint firstAttribute="height" constant="15" id="mGe-Ly-ExM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" name="Color2"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Tva-K9-mSX">
+                                <rect key="frame" x="281" y="16.5" width="54" height="20"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGd-QN-oJd">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="1pa-e4-GYb"/>
+                                            <constraint firstAttribute="width" constant="20" id="Ohu-zV-eoe"/>
+                                        </constraints>
+                                        <state key="normal" image="Group 2"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="editPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="CGg-M8-AS5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlA-gY-MAm">
+                                        <rect key="frame" x="34" y="0.0" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="IZT-V9-eEy"/>
+                                            <constraint firstAttribute="height" constant="20" id="ZVX-hy-wkv"/>
+                                        </constraints>
+                                        <state key="normal" image="Group 3"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="deletePressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="vSQ-HT-zlg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Tva-K9-mSX" secondAttribute="trailing" constant="4" id="2QJ-m6-wwY"/>
+                            <constraint firstItem="kb0-LN-4md" firstAttribute="top" secondItem="74G-aU-jiB" secondAttribute="bottom" id="4lG-Xq-QNS"/>
+                            <constraint firstItem="Tva-K9-mSX" firstAttribute="centerY" secondItem="74G-aU-jiB" secondAttribute="centerY" id="Aed-WZ-G7V"/>
+                            <constraint firstItem="74G-aU-jiB" firstAttribute="leading" secondItem="2wp-4j-pR1" secondAttribute="leadingMargin" constant="12" id="CdP-aR-j0R"/>
+                            <constraint firstAttribute="width" constant="347" id="Ffp-EG-qqJ"/>
+                            <constraint firstItem="74G-aU-jiB" firstAttribute="top" secondItem="2wp-4j-pR1" secondAttribute="topMargin" constant="8" id="NtR-Mv-3UO"/>
+                            <constraint firstItem="kb0-LN-4md" firstAttribute="leading" secondItem="2wp-4j-pR1" secondAttribute="leading" constant="24" id="RhW-kl-81x"/>
+                            <constraint firstItem="Tva-K9-mSX" firstAttribute="leading" secondItem="74G-aU-jiB" secondAttribute="trailing" constant="16" id="WSz-hm-uaB"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2wp-4j-pR1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="6mc-cH-ggm"/>
+                    <constraint firstItem="2wp-4j-pR1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="MVo-Jj-vdA"/>
+                    <constraint firstAttribute="bottom" secondItem="2wp-4j-pR1" secondAttribute="bottom" id="Mho-8D-qH4"/>
+                    <constraint firstAttribute="trailing" secondItem="2wp-4j-pR1" secondAttribute="trailing" id="xE4-J3-AKV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="deleteButton" destination="nlA-gY-MAm" id="JYQ-99-Sle"/>
+                <outlet property="departmentName" destination="74G-aU-jiB" id="yNV-YL-oun"/>
+                <outlet property="editButton" destination="EGd-QN-oJd" id="LCL-Fk-XOG"/>
+                <outlet property="numberOfGroups" destination="kb0-LN-4md" id="pxZ-44-UO7"/>
+            </connections>
+            <point key="canvasLocation" x="81.884057971014499" y="87.723214285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Group 2" width="15" height="15"/>
+        <image name="Group 3" width="12" height="11"/>
+        <namedColor name="Color1">
+            <color red="0.37599998712539673" green="0.21600000560283661" blue="0.62400001287460327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color2">
+            <color red="0.28999999165534973" green="0.28999999165534973" blue="0.28999999165534973" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

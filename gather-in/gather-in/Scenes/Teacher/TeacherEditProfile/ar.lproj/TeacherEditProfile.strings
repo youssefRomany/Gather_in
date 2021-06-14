@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Edit Profile"; ObjectID = "KtG-mX-UcT"; */
+"KtG-mX-UcT.text" = "تعديل الملف الشخصي";
+
+/* Class = "UILabel"; text = "Khaled Medhat"; ObjectID = "Lk4-W6-vG8"; */
+"Lk4-W6-vG8.text" = "Khaled Medhat";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "f1m-hh-y7t"; */
+"f1m-hh-y7t.normalTitle" = "حفظ";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "h6O-81-61a"; */
+"h6O-81-61a.placeholder" = "البريد الالكتروني";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "v0x-ci-eNZ"; */
+"v0x-ci-eNZ.placeholder" = "الاسم";

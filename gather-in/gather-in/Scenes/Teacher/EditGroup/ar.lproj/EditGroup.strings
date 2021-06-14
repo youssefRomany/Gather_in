@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "Group Name"; ObjectID = "U95-0m-q1D"; */
+"U95-0m-q1D.placeholder" = "اسم المجموعة";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "WHf-Hu-6ga"; */
+"WHf-Hu-6ga.normalTitle" = "حفظ";
+
+/* Class = "UITextField"; placeholder = "Add member to group"; ObjectID = "mqQ-zk-Nkl"; */
+"mqQ-zk-Nkl.placeholder" = "اضافة عضو الي المجموعة";
+
+/* Class = "UILabel"; text = "Edit Group"; ObjectID = "sT2-jb-j4i"; */
+"sT2-jb-j4i.text" = "تعديل مجموعة";

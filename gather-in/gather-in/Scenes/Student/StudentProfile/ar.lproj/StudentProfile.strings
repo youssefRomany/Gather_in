@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "D1q-Z4-KBk"; */
+"D1q-Z4-KBk.placeholder" = "الاسم";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "kUf-Z4-AkI"; */
+"kUf-Z4-AkI.placeholder" = "البريد الالكتروني";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "uId-20-dSm"; */
+"uId-20-dSm.normalTitle" = "حفظ";
+
+/* Class = "UILabel"; text = "Edit Profile"; ObjectID = "uuw-jf-5Uc"; */
+"uuw-jf-5Uc.text" = "تعديل الملف الشخصي";
+
+/* Class = "UILabel"; text = "Khaled Medhat"; ObjectID = "wvQ-dV-J4a"; */
+"wvQ-dV-J4a.text" = "";
+
+/* Class = "UIButton"; normalTitle = "Change Password"; ObjectID = "zxx-6l-ExD"; */
+"zxx-6l-ExD.normalTitle" = "تغير كلمة المرور";
